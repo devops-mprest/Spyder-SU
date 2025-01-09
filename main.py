@@ -5,7 +5,7 @@ from ping import *
 import threading
 from tkinter import messagebox
 import socket
-from softwares import *
+#from softwares import *
 
 # Functions
 # Functions for networking check and threading
@@ -13,7 +13,7 @@ def update_progressbar(pb, progress_value):
     pb['value'] = progress_value
 
 
-def networking(battnumber, project, set, b9):
+def networking(battnumber, project, set, b9, diff_network):
     global pb_label
     global pb
     # Create a progress bar and label
@@ -26,7 +26,7 @@ def networking(battnumber, project, set, b9):
         pb_label.configure(text="Networking Check In Progress")
     else:
         b9.configure(bootstyle='info')
-        pb = ttk.Progressbar(root, bootstyle='info', maximum=100, mode="inte", length=200, value=0)
+        pb = ttk.Progressbar(root, bootstyle='info', maximum=100, mode="determinate", length=200, value=0)
         pb.place(x=255, y=550)
         pb_label = ttk.Label(root, text="Networking Check In Progress")
         pb_label.place(x=230, y=570)
@@ -35,7 +35,7 @@ def networking(battnumber, project, set, b9):
     # Create a thread to run the ping function
     def ping_thread():
         # Run the ping function and get the result
-        result = ping(battnumber, project, set, update_progressbar, pb)
+        result = ping(battnumber, project, set, update_progressbar, pb, diff_network)
 
         # Update the progress bar and label
         if result == 0:
@@ -48,7 +48,7 @@ def networking(battnumber, project, set, b9):
             b9.configure(bootstyle='DANGER')
             pb_label.place_forget()
             pb.place_forget()
-            messagebox.showerror("Ping Failed", "There failures in the ping test.")
+            messagebox.showerror("Ping Failed", "There failures in the ping test.", icon="error")
 
     # Start the thread to run the ping function
     threading.Thread(target=ping_thread, daemon=True).start()
@@ -58,14 +58,14 @@ def software_check(battnumber,project,set,b10):
         b10.configure(bootstyle='info')
         pb = ttk.Progressbar(root, bootstyle='info', maximum=200, mode="determinate", length=200, value=0)
         pb.place(x=255, y=550)
-        pb_label = ttk.Label(root, text="Softwares Check In Progress")
+        pb_label = ttk.Label(root, text="Softwares Check In Progress", background="#f5f5f5")
         pb_label.place(x=230, y=570)
         pb_label.configure(text="Softwares Check In Progress")
     else:
         b10.configure(bootstyle='info')
         pb = ttk.Progressbar(root, bootstyle='info', maximum=100, mode="inte", length=200, value=0)
         pb.place(x=255, y=550)
-        pb_label = ttk.Label(root, text="Softwares Check In Progress")
+        pb_label = ttk.Label(root, text="Softwares Check In Progress", background="#f5f5f5")
         pb_label.place(x=230, y=570)
         pb_label.configure(text="Softwares Check In Progress")
 
@@ -78,7 +78,7 @@ def software_check(battnumber,project,set,b10):
 def system_check_health_all_system():
     main_label.config(text='System Health')   # Change the main label
     main_label.place(x=170,y=80)
-    secondary_label = ttkb.Label(text='All System', font=("Helvetica", 10), bootstyle='DARK')
+    secondary_label = ttkb.Label(text='All System', font=("Helvetica", 10), bootstyle='DARK', background="#f5f5f5")
     secondary_label.place(x=300,y=140)
     section_label.config(text='system_check_health') # Change the section label
     section_label.place(x=270,y=10)
@@ -89,32 +89,47 @@ def system_check_health_all_system():
     #b5.place_forget()                             # Make Button gone
     b6.place_forget()                             # Make Button gone
 
-    b7 = ttk.Button(root, text="Back", bootstyle=(DARK, OUTLINE), command=lambda:back(b9,b10,b11,b12,b7,cb2,cb1,sets_label,battey_label,projects_label,cb3,secondary_label))
+    b7 = ttk.Button(root, text="Back", bootstyle=(DARK, OUTLINE), command=lambda:back(b9,b10,b11,b12,b7,cb2,cb1,sets_label,battey_label,projects_label,cb3,secondary_label,entry_label,entry_value))
     b7.place(x=10,y=540)
 
     #b8 = ttk.Button(root, text="Start", bootstyle=(DARK, OUTLINE), command=lambda:back(cb1,cb2,cb3))
     #b8.place(x=310,y=500)
+    def on_combobox_select(event):
+        selected_value = cb1.get()
+    
+        if selected_value == "Enter Network":
+            # Show the Entry widget for manual input
+            entry_label.place(x=400, y=200)
+            entry_value.place(x=400, y=220)
+        else:
+            # Hide the Entry widget if a number is selected
+            entry_label.place_forget()
+            entry_value.place_forget()
 
-    battey_label = ttkb.Label(text='Select Battery Number:', font=("Helvetica", 11), bootstyle='DARK')
+
+    battey_label = ttkb.Label(text='Select Battery Number:', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     battey_label.place(x=240,y=190)
 
-    battnumber = [1,2,3,4,5,6,7,8,9,10]
+    battnumber = [1,2,3,4,5,6,7,8,9,10,"Enter Network"]
 
     cb1 = ttkb.Combobox(root, bootstyle='dark', values=battnumber)
     cb1.place(x=240, y=220)
     cb1.current(0)
-    
+    cb1.bind("<<ComboboxSelected>>", on_combobox_select)
+
+    entry_label = ttkb.Label(root, text="Enter Network:", font=("Helvetica", 10), bootstyle='DARK', background="#f5f5f5")
+    entry_value = ttkb.Entry(root, background="#f5f5f5")
 
     projects = ['Spyder','All-in-One',]
 
-    projects_label = ttkb.Label(text='Select Project:', font=("Helvetica", 11), bootstyle='DARK')
+    projects_label = ttkb.Label(text='Select Project:', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     projects_label.place(x=240,y=270)
 
     cb3 = ttkb.Combobox(root, bootstyle='dark', values=projects)
     cb3.place(x=240, y=300)
     cb3.current(0)
     
-    sets_label = ttkb.Label(text='Select Number of racks:', font=("Helvetica", 11), bootstyle='DARK')
+    sets_label = ttkb.Label(text='Select Set:', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     sets_label.place(x=240,y=350)
     if cb3.get() == 'All-in-One':
         sets = ['Main']
@@ -126,7 +141,7 @@ def system_check_health_all_system():
     cb2.current(0)
 
     # Create Checkbutton
-    b9 = ttk.Button(root, text="Networking", bootstyle=(DARK, OUTLINE), command=lambda:networking(cb1.get(),cb3.get(),cb2.get(),b9))
+    b9 = ttk.Button(root, text="Networking", bootstyle=(DARK, OUTLINE), command=lambda:networking(cb1.get(),cb3.get(),cb2.get(),b9, diff_network=entry_value.get()))
     b9.place(x=240,y=450)
 
     b10 = ttk.Button(root, text="Softwares", bootstyle=(DARK, OUTLINE), command=lambda:software_check(cb3.get(),cb2.get(),b10))
@@ -142,7 +157,7 @@ def system_check_health_self():
     main_label.config(text='System Health')   # Change the main label
     main_label.place(x=170,y=80)
 
-    secondary_label = ttkb.Label(text='Self', font=("Helvetica", 10), bootstyle='DARK')
+    secondary_label = ttkb.Label(text='Self', font=("Helvetica", 10), bootstyle='DARK', background="#f5f5f5")
     secondary_label.place(x=330,y=140)
 
     section_label.config(text='system_check_health') # Change the section label
@@ -160,7 +175,7 @@ def system_check_health_self():
     #b8 = ttk.Button(root, text="Start", bootstyle=(DARK, OUTLINE), command=lambda:back(cb1,cb2,cb3))
     #b8.place(x=310,y=500)
 
-    battey_label = ttkb.Label(text='Select Battery Number', font=("Helvetica", 11), bootstyle='DARK')
+    battey_label = ttkb.Label(text='Select Battery Number', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     battey_label.place(x=240,y=190)
 
     battnumber = [1,2,3,4,5,6,7,8,9,10]
@@ -169,7 +184,7 @@ def system_check_health_self():
     cb1.place(x=240, y=220)
     cb1.current(0)
     
-    sets_label = ttkb.Label(text='Select Component', font=("Helvetica", 11), bootstyle='DARK')
+    sets_label = ttkb.Label(text='Select Component', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     sets_label.place(x=240,y=350)
 
     sets = ['CCU1','CCU2',"ICS1","ICS2","DRS1","DRS2","OC1","OC2","COP"]
@@ -180,7 +195,7 @@ def system_check_health_self():
 
     projects = ['Spyder','All-in-One',]
 
-    projects_label = ttkb.Label(text='Select Project:', font=("Helvetica", 11), bootstyle='DARK')
+    projects_label = ttkb.Label(text='Select Project:', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     projects_label.place(x=240,y=270)
 
     cb3 = ttkb.Combobox(root, bootstyle='dark', values=projects)
@@ -222,7 +237,7 @@ def system_installation_Self():
     #b8 = ttk.Button(root, text="Start", bootstyle=(DARK, OUTLINE), command=lambda:back(cb1,cb2,cb3))
     #b8.place(x=310,y=500)
 
-    battey_label = ttkb.Label(text='Select Battery Number', font=("Helvetica", 11), bootstyle='DARK')
+    battey_label = ttkb.Label(text='Select Battery Number', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     battey_label.place(x=240,y=190)
 
     battnumber = [1,2,3,4,5,6,7,8,9,10]
@@ -231,7 +246,7 @@ def system_installation_Self():
     cb1.place(x=240, y=220)
     cb1.current(0)
     
-    racks_label = ttkb.Label(text='Select Component', font=("Helvetica", 11), bootstyle='DARK')
+    racks_label = ttkb.Label(text='Select Component', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     racks_label.place(x=240,y=270)
 
     racks = ['CCU1','CCU2',"ICS1","ICS2","DRS1","DRS2","OC1","OC2","COP"]
@@ -242,7 +257,7 @@ def system_installation_Self():
 
     projects = ['Spyder','All-in-One',]
 
-    projects_label = ttkb.Label(text='Select Project:', font=("Helvetica", 11), bootstyle='DARK')
+    projects_label = ttkb.Label(text='Select Project:', font=("Helvetica", 11), bootstyle='DARK', background="#f5f5f5")
     projects_label.place(x=240,y=350)
 
     cb3 = ttkb.Combobox(root, bootstyle='dark', values=projects)
@@ -291,7 +306,7 @@ def back2(b9,b10,b7,cb2,cb1,battey_label,sets_label,projects_label,cb3,secondary
     projects_label.place_forget()
     cb3.place_forget()
 
-def back(b9,b10,b11,b12,b7,cb2,cb1,battey_label,sets_label,projects_label,cb3,secondary_label):
+def back(b9,b10,b11,b12,b7,cb2,cb1,battey_label,sets_label,projects_label,cb3,secondary_label,entry_label,entry_value):
     main_label.config(text='Spyder SU')
     main_label.place(x=200,y=80)
     
@@ -322,19 +337,23 @@ def back(b9,b10,b11,b12,b7,cb2,cb1,battey_label,sets_label,projects_label,cb3,se
     projects_label.place_forget()
     cb3.place_forget()
     # remove_pb()
-
+    entry_label.place_forget()
+    entry_value.place_forget()
 
 # Create the main windows of the app
 root = ttkb.Window(themename="cosmo")                          #Set the root var value to the class tk
 root.geometry('710x630')                #Set the size of the window
 root.resizable(False,False)             #Set the option to resize the window to inactive
 root.title('Spyder Software Update')    #Set the tile of the app
-root.iconbitmap("C:\Python Projects\Spyder-SU\Spyder-SU\images\mprest.ico")
-
+root.iconbitmap("C:\Work\Spyder SU\images\spyder-bg.ico")
+root.configure(background="#f5f5f5")
 
 # Set a background image for the app
-background_image = PhotoImage()
+background_image = Image.open('C:\Work\Spyder SU\images\spyder-bg.jpeg')
+image = ImageTk.PhotoImage(background_image)
 
+image_label = ttkb.Label(root, image=image, background="#f5f5f5")
+image_label.place(x=500,y=10)
 
 # Set Menu bars
 app_menu = tk.Menu(root)
@@ -353,20 +372,20 @@ help_menu.add_command(label='1. mPrest instegrators members', command=networking
 help_menu.add_command(label='2. About', command=networking)
 
 # Create Labels
-main_label = ttkb.Label(text='Spyder SU', font=("Helvetica", 28), bootstyle='DARK')
+main_label = ttkb.Label(text='Spyder SU', font=("Helvetica", 28), bootstyle='DARK', background="#f5f5f5")
 main_label.place(x=200,y=80)
 
-section_label = ttkb.Label(text='Main', bootstyle="DARK")
+section_label = ttkb.Label(text='Main', bootstyle="DARK", background="#f5f5f5")
 section_label.place(x=310,y=10)
 
 local_ip = socket.gethostbyname(socket.gethostname())
 hostname = socket.gethostname()
 runner_info_label = ttkb.Label(text=f'''
                                 {hostname}
-                               {local_ip}''')
-runner_info_label.place(relx=-0.2, rely=-0.050)
+                               {local_ip}''', background="#f5f5f5")
+# runner_info_label.place(relx=-0.2, rely=-0.050)
 # runner_info_label.place(x=400,y=50)
-
+runner_info_label.place(relx=-0.1, rely=0)
 
 # Create Buttons
 b1 = ttk.Button(root, text="System Health Check (All System)", bootstyle=(DARK, OUTLINE),width=30, command=system_check_health_all_system)

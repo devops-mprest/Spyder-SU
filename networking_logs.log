@@ -108,3 +108,47 @@
 [2025-01-07 18:03:36] Ping succeeded for RDB (194.0.85.122): 
 [2025-01-07 18:03:37] Ping succeeded for OC1 (194.0.85.131): 
 [2025-01-07 18:03:38] Ping succeeded for OC2 (194.0.85.132): 
+[2025-01-08 14:50:10] Ping failed for MC2 (194.0.81.111): 
+[2025-01-08 14:50:19] Ping failed for MICS (194.0.81.101): 
+[2025-01-08 14:50:28] Ping failed for MDB (194.0.81.121): 
+[2025-01-08 14:50:37] Ping failed for OC1 (194.0.81.131): 
+[2025-01-08 14:50:54] Ping failed for MC2 (194.0.81.111): 
+[2025-01-08 14:51:03] Ping failed for MICS (194.0.81.101): 
+[2025-01-08 14:51:12] Ping failed for MDB (194.0.81.121): 
+[2025-01-08 14:51:21] Ping failed for OC1 (194.0.81.131): 
+[2025-01-08 14:54:46] Ping failed for MC2 (194.0.81.111): 
+[2025-01-08 14:54:55] Ping failed for MICS (194.0.81.101): 
+[2025-01-08 14:55:04] Ping failed for MDB (194.0.81.121): 
+[2025-01-08 14:55:13] Ping failed for OC1 (194.0.81.131): 
+[2025-01-08 14:58:21] Ping failed for MC2 (194.0.81.111): 
+[2025-01-08 14:58:30] Ping failed for MICS (194.0.81.101): 
+[2025-01-08 14:58:39] Ping failed for MDB (194.0.81.121): 
+[2025-01-08 14:58:48] Ping failed for OC1 (194.0.81.131): 
+[2025-01-08 15:00:31] Ping failed for MC2 (194.0.81.111): 
+[2025-01-08 15:00:40] Ping failed for MICS (194.0.81.101): 
+[2025-01-08 15:00:49] Ping failed for MDB (194.0.81.121): 
+[2025-01-08 15:00:58] Ping failed for OC1 (194.0.81.131): 
+[2025-01-08 15:22:00] Ping failed for MC2 (194.0.81.111): 
+[2025-01-08 15:22:09] Ping failed for MICS (194.0.81.101): 
+[2025-01-08 15:22:18] Ping failed for MDB (194.0.81.121): 
+[2025-01-08 15:22:27] Ping failed for OC1 (194.0.81.131): 
+[2025-01-08 15:22:37] Ping failed for MC2 (194.0.8Enter Network.111): 
+[2025-01-08 15:22:37] Ping failed for MICS (194.0.8Enter Network.101): 
+[2025-01-08 15:22:37] Ping failed for MDB (194.0.8Enter Network.121): 
+[2025-01-08 15:22:37] Ping failed for OC1 (194.0.8Enter Network.131): 
+[2025-01-08 15:28:46] Ping failed for MC2 (10.10.10.111): 
+[2025-01-08 15:28:55] Ping failed for MICS (10.10.10.101): 
+[2025-01-08 15:29:04] Ping failed for MDB (10.10.10.121): 
+[2025-01-08 15:29:13] Ping failed for OC1 (10.10.10.131): 
+[2025-01-08 15:31:19] Ping failed for MC2 (10.10.10.111): 
+[2025-01-08 15:31:28] Ping failed for MICS (10.10.10.101): 
+[2025-01-08 15:31:37] Ping failed for MDB (10.10.10.121): 
+[2025-01-08 15:31:46] Ping failed for OC1 (10.10.10.131): 
+[2025-01-08 15:34:39] Ping failed for MC2 (54.0.85.111): 
+[2025-01-08 15:34:48] Ping failed for MICS (54.0.85.101): 
+[2025-01-08 15:34:57] Ping failed for MDB (54.0.85.121): 
+[2025-01-08 15:35:06] Ping failed for OC1 (54.0.85.131): 
+[2025-01-08 15:35:15] Ping failed for RC2 (54.0.85.112): 
+[2025-01-08 15:35:24] Ping failed for RICS (54.0.85.102): 
+[2025-01-08 15:35:33] Ping failed for RDB (54.0.85.122): 
+[2025-01-08 15:35:42] Ping failed for OC2 (54.0.85.132): 

@@ -14,33 +14,53 @@ def log_error(error_message):
     with open(log_file, 'a') as log:
         log.write(f"[{current_time}] {error_message}\n")
 
-def ping(batt_number, project, set, update_progressbar,pb):
-    if project == "All-In-One":
-        components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                         "MICS": f"194.0.8{batt_number}.101",
-                         "MDB": f"194.0.8{batt_number}.121",
-                         "OC1": f"194.0.8{batt_number}.131"}
-    elif project == 'Spyder' and set == "Main":
-        components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                         "MICS": f"194.0.8{batt_number}.101",
-                         "MDB": f"194.0.8{batt_number}.121",
-                         "OC1": f"194.0.8{batt_number}.131"}
-    elif project == 'Spyder' and set == "Backup":
-        components_ip = {"RC2": f"194.0.8{batt_number}.112",
-                         "RICS": f"194.0.8{batt_number}.102",
-                         "RDB": f"194.0.8{batt_number}.122",
-                         "OC2": f"194.0.8{batt_number}.132"}
-    elif project == 'Spyder' and set =='Main+Backup':
-        components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                         "RC2": f"194.0.8{batt_number}.112",
-                         "MICS": f"194.0.8{batt_number}.101",
-                         "RICS": f"194.0.8{batt_number}.102",
-                         "MDB": f"194.0.8{batt_number}.121",
-                         "RDB": f"194.0.8{batt_number}.122",
-                         "OC1": f"194.0.8{batt_number}.131",
-                         "OC2": f"194.0.8{batt_number}.132"}   
-    else:
-        return False
+def ping(batt_number, project, set, update_progressbar,pb, diff_network=None):
+    if diff_network and set == "Main":
+        components_ip = {"MC2": f"{diff_network}.111",
+                         "MICS": f"{diff_network}.101",
+                         "MDB": f"{diff_network}.121",
+                         "OC1": f"{diff_network}.131"}
+    elif diff_network and set == "Backup":
+        components_ip = {"RC2": f"{diff_network}.112",
+                         "RICS": f"{diff_network}.102",
+                         "RDB": f"{diff_network}.122",
+                         "OC2": f"{diff_network}.132"}
+    elif diff_network and set == "Main+Backup":
+        components_ip = {"MC2": f"{diff_network}.111",
+                         "MICS": f"{diff_network}.101",
+                         "MDB": f"{diff_network}.121",
+                         "OC1": f"{diff_network}.131",
+                         "RC2": f"{diff_network}.112",
+                         "RICS": f"{diff_network}.102",
+                         "RDB": f"{diff_network}.122",
+                         "OC2": f"{diff_network}.132"}      
+    else:    
+        if project == "All-In-One":
+            components_ip = {"MC2": f"194.0.8{batt_number}.111",
+                             "MICS": f"194.0.8{batt_number}.101",
+                             "MDB": f"194.0.8{batt_number}.121",
+                             "OC1": f"194.0.8{batt_number}.131"}
+        elif project == 'Spyder' and set == "Main":
+            components_ip = {"MC2": f"194.0.8{batt_number}.111",
+                             "MICS": f"194.0.8{batt_number}.101",
+                             "MDB": f"194.0.8{batt_number}.121",
+                             "OC1": f"194.0.8{batt_number}.131"}
+        elif project == 'Spyder' and set == "Backup":
+            components_ip = {"RC2": f"194.0.8{batt_number}.112",
+                             "RICS": f"194.0.8{batt_number}.102",
+                             "RDB": f"194.0.8{batt_number}.122",
+                             "OC2": f"194.0.8{batt_number}.132"}
+        elif project == 'Spyder' and set =='Main+Backup':
+            components_ip = {"MC2": f"194.0.8{batt_number}.111",
+                             "RC2": f"194.0.8{batt_number}.112",
+                             "MICS": f"194.0.8{batt_number}.101",
+                             "RICS": f"194.0.8{batt_number}.102",
+                             "MDB": f"194.0.8{batt_number}.121",
+                            "RDB": f"194.0.8{batt_number}.122",
+                            "OC1": f"194.0.8{batt_number}.131",
+                            "OC2": f"194.0.8{batt_number}.132"}   
+        else:
+            return False
     
     total_failure = 0
     progressbar_value = 0
