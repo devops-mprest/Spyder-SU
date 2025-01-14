@@ -63,7 +63,7 @@ def ping(batt_number, project, set, update_progressbar,pb, diff_network=None):
             return False
     
     total_failure = 0
-    progressbar_value = 0
+    # progressbar_value = 0
     # Ping each component
     for component, ip in components_ip.items():
         command = ["ping", "-n", "2", ip]
@@ -77,18 +77,17 @@ def ping(batt_number, project, set, update_progressbar,pb, diff_network=None):
                 print(f"Ping to {ip} successful for {component}!")
                 log_message = f"Ping succeeded for {component} ({ip}): {result.stderr}"
                 log_error(log_message)
-                progressbar_value += 25
-                update_progressbar(pb, progressbar_value)
+                # progressbar_value += 25
+                # update_progressbar(pb, progressbar_value)
             else:
                 print(f"Ping to {ip} failed for {component}!")
                 error_message = f"Ping failed for {component} ({ip}): {result.stderr}"
                 log_error(error_message)                
                 print(result.stderr)
                 total_failure += 1
-                progressbar_value += 25
-                update_progressbar(pb, progressbar_value)
+                # progressbar_value += 25
+                # update_progressbar(pb, progressbar_value)
         except Exception as e:
             print(f"An error occurred while pinging {component}: {e}")
             total_failure += 1
-    
     return total_failure
