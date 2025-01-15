@@ -1,0 +1,1 @@
+1. when i use "other" in buttary number it use the value "other" for the computers name in softwares.

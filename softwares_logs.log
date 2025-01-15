@@ -1403,3 +1403,67 @@
 [2025-01-14 20:29:53] [WinError 53] The network path was not found for \\OC1
 [2025-01-14 20:29:53] [WinError 53] The network path was not found for \\OC1
 [2025-01-14 20:29:55] ERROR: \\OC1 have 0 of 10 softwares installed
+[2025-01-15 12:08:42] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-15 12:08:45] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-15 12:08:49] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-15 12:08:52] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-15 12:08:56] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:09:00] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-15 12:09:03] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-15 12:09:07] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-15 12:09:11] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:09:14] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-15 12:09:18] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-15 12:09:22] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-15 12:09:25] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-15 12:09:29] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7 instead of 7.8.4 on \\pc-bene
+[2025-01-15 12:09:31] ERROR: \\pc-bene have 1 of 10 softwares installed
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:33] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-15 12:09:37] ERROR: \\MC2-01 have 0 of 10 softwares installed
+[2025-01-15 12:16:20] ERROR: software_name version not Installed on \\pc-bene
+[2025-01-15 12:16:23] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-15 12:16:27] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-15 12:16:31] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-15 12:16:34] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-15 12:17:24] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-15 12:17:28] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-15 12:17:32] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-15 12:17:35] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-15 12:17:39] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:17:43] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-15 12:17:46] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-15 12:17:51] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:17:55] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-15 12:18:48] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-15 12:18:52] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-15 12:18:56] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-15 12:18:59] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-15 12:19:03] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:19:06] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-15 12:19:10] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-15 12:19:13] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:19:16] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-15 12:19:20] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-15 12:19:24] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7 instead of 7.8.4 on \\pc-bene
+[2025-01-15 12:19:27] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-15 12:19:31] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-15 12:19:34] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-15 12:19:38] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-15 12:19:42] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:19:45] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-15 12:19:48] ERROR: \\pc-bene have 0 of 17 softwares installed
+[2025-01-15 12:25:22] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-15 12:26:17] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
