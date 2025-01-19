@@ -2,6 +2,7 @@
 from modules import *
 from app_functions import *
 from ping import *
+import subprocess
 import threading
 from tkinter import messagebox
 import socket
@@ -12,155 +13,450 @@ import csv
 import os
 import datetime
 import ctypes
+import queue
+import wmi
+import pythoncom
 
 # Functions for networking check and threading
-def network_map(connected,disconnected):
-        # Create a new top-level window
+
+def software_map(computer, installed, not_installed):
     # Create a new top-level window
     status_window = tk.Toplevel(root)
-    status_window.title("Device Status")
+    status_window.title(f"{computer} Software Status")
 
-    # Create a label for connected devices
-    connected_label = ttk.Label(status_window, text="Connected Devices:", font=("Arial", 12, "bold"))
-    connected_label.pack(pady=10)
+    # Create a label for installed software
+    installed_label = ttk.Label(status_window, text="Installed Software:", font=("Arial", 12, "bold"))
+    installed_label.pack(pady=10)
 
-    # Create a Listbox to display the connected devices (instead of a Text widget)
-    connected_listbox = tk.Listbox(status_window, height=10, width=50)  # Adjust height to accommodate more devices
-    connected_listbox.pack(padx=10, pady=5)
+    # Create a Treeview to display installed software
+    global installed_treeview  # Declare as global to access in the update function
+    installed_treeview = ttk.Treeview(status_window, columns=("Software Name", "Version"), show="headings", height=10)
+    installed_treeview.heading("Software Name", text="Software Name")
+    installed_treeview.heading("Version", text="Version")
+    installed_treeview.column("Software Name", width=400)
+    installed_treeview.column("Version", width=200)
+    installed_treeview.pack(padx=10, pady=5)
+
+    # Create a label for not installed software
+    not_installed_label = ttk.Label(status_window, text="Not Installed Software:", font=("Arial", 12, "bold"))
+    not_installed_label.pack(pady=10)
+
+    # Create a Treeview to display not-installed software
+    global not_installed_treeview  # Declare as global to access in the update function
+    not_installed_treeview = ttk.Treeview(status_window, columns=("Software Name", "Version"), show="headings", height=10)
+    not_installed_treeview.heading("Software Name", text="Software Name")
+    not_installed_treeview.heading("Version", text="Version")
+    not_installed_treeview.column("Software Name", width=400)
+    not_installed_treeview.column("Version", width=200)
+    not_installed_treeview.pack(padx=10, pady=5)
+
+    # Insert initial software lists (empty or default)
+    for software_info in installed:
+        software_name = software_info.get("software")
+        version = software_info.get("version")
+        installed_treeview.insert("", tk.END, values=(software_name, version))
+
+    for software_info in not_installed:
+        software_name = software_info.get("software")
+        version = software_info.get("version")
+        not_installed_treeview.insert("", tk.END, values=(software_name, version))
+
+def update_software_map_treeview(computer, installed_software, not_installed_software):
+    # Update the installed software treeview
+    installed_treeview.delete(*installed_treeview.get_children())  # Clear the treeview before inserting new values
+    for software_info in installed_software:
+        software_name = software_info.get("software")
+        version = software_info.get("version")
+        installed_treeview.insert("", tk.END, values=(software_name, version))
+
+    # Update the not installed software treeview
+    not_installed_treeview.delete(*not_installed_treeview.get_children())  # Clear the treeview before inserting new values
+    for software_info in not_installed_software:
+        software_name = software_info.get("software")
+        version = software_info.get("version")
+        not_installed_treeview.insert("", tk.END, values=(software_name, version))
+
+# Function to check disk space for a remote computer using WMI
+def disk_space(pc):
+    try:
+        # Initialize COM for this thread
+        pythoncom.CoInitialize()
+        
+        # Set up WMI connection to the remote machine
+        connection = wmi.WMI(computer=pc)
+        
+        # Query for logical disks (C:, D:, etc.)
+        disk_info = []
+        for disk in connection.Win32_LogicalDisk(DriveType=3):  # DriveType=3 refers to local disks
+            drive = disk.DeviceID
+            total_space = int(disk.Size) / (1024 ** 3)  # Convert bytes to GB
+            free_space = int(disk.FreeSpace) / (1024 ** 3)  # Convert bytes to GB
+            used_space = total_space - free_space
+            disk_info.append((drive, total_space, free_space, used_space))
+        return disk_info
+    except Exception as e:
+        print(f"Error checking disk space on {pc}: {e}")
+        return None
+    finally:
+        # Ensure to uninitialize COM when done with the thread
+        pythoncom.CoUninitialize()
+
+# Function to update the Treeview with disk space information for each computer
+def update_treeview_disk(treeview, pc, disk_info):
+    if disk_info:
+        for drive, total, free, used in disk_info:
+            # Find the matching row for the computer and drive, and update the status
+            updated = False
+            for item in treeview.get_children():
+                if treeview.item(item)["values"][0] == pc and treeview.item(item)["values"][1] == drive:
+                    treeview.item(item, values=(pc, drive, f"{free:.2f} GB Free"))
+                    updated = True
+                    break
+            if not updated:
+                # If not found, insert a new row
+                treeview.insert('', 'end', values=(pc, drive, f"{free:.2f} GB Free"))
+    else:
+        # If the remote computer is unreachable or there is an error, update the status as 'Error'
+        for item in treeview.get_children():
+            if treeview.item(item)["values"][0] == pc:
+                treeview.item(item, values=(pc, "Error", "Unable to retrieve disk space"))
+                break
+
+# Function to run the disk space check and update the Treeview
+def run_disk_space_check(treeview, pc):
+    # Query the disk space for the computer
+    disk_info = disk_space(pc)
     
-    # Insert connected devices into the listbox
-    for device in connected:
-        connected_listbox.insert(tk.END, device)
+    # Update the Treeview with the retrieved disk space information
+    update_treeview_disk(treeview, pc, disk_info)
 
-    # Create a label for disconnected devices
-    disconnected_label = ttk.Label(status_window, text="Disconnected Devices:", font=("Arial", 12, "bold"))
-    disconnected_label.pack(pady=10)
+# Function to start the disk space check in a separate thread for each computer
+def check_disk_space_for_pc(treeview, pc):
+    threading.Thread(target=run_disk_space_check, args=(treeview, pc), daemon=True).start()
 
-    # Create a Listbox to display the disconnected devices (instead of a Text widget)
-    disconnected_listbox = tk.Listbox(status_window, height=10, width=50)  # Adjust height to accommodate more devices
-    disconnected_listbox.pack(padx=10, pady=5)
+# Main function to create the Disk Space window
+def disk_space_window(battnumber, project, set, b12, cop_id):
+    # Create the Toplevel window
+    disk_space_window = tk.Toplevel(root)
+    disk_space_window.title("Disk Space Status for Remote PCs")
+    disk_space_window.geometry("800x400")  # Size of the new window
+
+    # Create the Treeview widget
+    treeview = ttk.Treeview(disk_space_window, columns=("Computer", "Drive", "Free Space"), show="headings")
+    treeview.heading("Computer", text="Computer")
+    treeview.heading("Drive", text="Drive")
+    treeview.heading("Free Space", text="Free Space")
+    treeview.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+    # Define remote computers based on the input parameters
+    if set == 'Main+Backup':
+        if cop_id:
+            remote_computers = [
+                r'pc-bene', 
+                r'MC2-0{}'.format(battnumber),
+                r'RC2-0{}'.format(battnumber),
+                r'MICS-0{}'.format(battnumber),
+                r'RICS-0{}'.format(battnumber),
+                r'MDB-0{}'.format(battnumber),
+                r'RDB-0{}'.format(battnumber),
+                r'OC1'.format(battnumber),
+                r'OC2'.format(battnumber),
+                r'COP'.format(cop_id)
+            ]
+        else:
+            remote_computers = [
+                r'pc-bene', 
+                r'MC2-0{}'.format(battnumber),
+                r'RC2-0{}'.format(battnumber),
+                r'MICS-0{}'.format(battnumber),
+                r'RICS-0{}'.format(battnumber),
+                r'MDB-0{}'.format(battnumber),
+                r'RDB-0{}'.format(battnumber),
+                r'OC1'.format(battnumber),
+                r'OC2'.format(battnumber)
+            ]
+
+    # Add initial rows to the Treeview for each computer (initially "Checking...")
+    for pc in remote_computers:
+        treeview.insert('', 'end', values=(pc, "Checking...", "Initializing"))
+
+    # Start the disk space check for each remote computer in separate threads
+    for pc in remote_computers:
+        check_disk_space_for_pc(treeview, pc)
+
+# Function to check permissions on remote computers
+def check_permission_to_c(battnumber, project, set, b11, cop_id):
+    # Create a new top-level window for showing results
+    status_window = tk.Toplevel(root)
+    status_window.title(f"Permission Check Status")
+
+    # Create a label for the status
+    status_label = ttk.Label(status_window, text="Permission Check Results:", font=("Arial", 12, "bold"))
+    status_label.pack(pady=10)
+
+    # Create a Treeview to display the permission check results
+    permission_treeview = ttk.Treeview(status_window, columns=("Computer Name", "Permission Status", "Error Message"), show="headings", height=10)
     
-    # Insert disconnected devices into the listbox
-    for device in disconnected:
-        disconnected_listbox.insert(tk.END, device)
+    # Define the column headings
+    permission_treeview.heading("Computer Name", text="Computer Name")
+    permission_treeview.heading("Permission Status", text="Permission Status")
+    permission_treeview.heading("Error Message", text="Error Message")
 
-    # Add a close button to the new window
+    # Adjust column widths
+    permission_treeview.column("Computer Name", width=200)
+    permission_treeview.column("Permission Status", width=150)
+    permission_treeview.column("Error Message", width=300)
+    
     close_button = ttk.Button(status_window, text="Close", command=status_window.destroy)
     close_button.pack(pady=20)
+    # Pack the Treeview widget with some padding
+    permission_treeview.pack(padx=10, pady=5, fill=tk.BOTH, expand=True)
 
+    # Prepare the remote computers list based on the set
+    if set == 'Main+Backup':
+        if cop_id:
+            remote_computers = [r'\\pc-bene', r'\\MC2-0{}'.format(battnumber), r'\\RC2-0{}'.format(battnumber), r'\\MICS-0{}'.format(battnumber), r'\\RICS-0{}'.format(battnumber), r'\\MDB-0{}'.format(battnumber), r'\\RDB-0{}'.format(battnumber), r'\\OC1'.format(battnumber), r'\\OC2'.format(battnumber), r'\\COP'.format(cop_id)]
+        else:
+            remote_computers = [r'\\pc-bene', r'\\MC2-0{}'.format(battnumber), r'\\RC2-0{}'.format(battnumber), r'\\MICS-0{}'.format(battnumber), r'\\RICS-0{}'.format(battnumber), r'\\MDB-0{}'.format(battnumber), r'\\RDB-0{}'.format(battnumber), r'\\OC1'.format(battnumber), r'\\OC2'.format(battnumber)]
+    elif set == 'Main':
+        if cop_id:
+            remote_computers = [r'\\pc-bene', r'\\MC2-0{}'.format(battnumber), r'\\MICS-0{}'.format(battnumber), r'\\MDB-0{}'.format(battnumber), r'\\OC1'.format(battnumber), r'\\COP'.format(cop_id)]
+        else:
+            remote_computers = [r'\\pc-bene', r'\\MC2-0{}'.format(battnumber), r'\\MICS-0{}'.format(battnumber), r'\\MDB-0{}'.format(battnumber), r'\\OC1'.format(battnumber)]
+    elif set == 'Backup':
+        if cop_id:
+            remote_computers = [r'\\pc-bene', r'\\RC2-0{}'.format(battnumber), r'\\RICS-0{}'.format(battnumber), r'\\RDB-0{}'.format(battnumber), r'\\OC2'.format(battnumber), r'\\COP'.format(cop_id)]
+        else:
+            remote_computers = [r'\\pc-bene', r'\\RC2-0{}'.format(battnumber), r'\\RICS-0{}'.format(battnumber), r'\\RDB-0{}'.format(battnumber), r'\\OC2'.format(battnumber)]
 
-    results_window = tk.Toplevel(root)
-    results_window.title("Software Installation Status")
-    
-    # Create a Listbox to display the installed software
-    installed_label = ttk.Label(results_window, text="Installed Software:", font=("Arial", 12, "bold"))
-    installed_label.pack(pady=10)
-    installed_listbox = tk.Listbox(results_window, height=10, width=50)
-    installed_listbox.pack(padx=10, pady=5)
-    for software in installed_software:
-        installed_listbox.insert(tk.END, software)
-    
-    # Create a Listbox to display the not installed software
-    not_installed_label = ttk.Label(results_window, text="Not Installed Software:", font=("Arial", 12, "bold"))
-    not_installed_label.pack(pady=10)
-    not_installed_listbox = tk.Listbox(results_window, height=10, width=50)
-    not_installed_listbox.pack(padx=10, pady=5)
-    for software in not_installed_software:
-        not_installed_listbox.insert(tk.END, software)
-    
-    # Close button
-    close_button = ttk.Button(results_window, text="Close", command=results_window.destroy)
-    close_button.pack(pady=20)
+    # Start the progress bar
+    b11.configure(bootstyle='info')
+    pbp = ttk.Progressbar(root, bootstyle='info', mode="indeterminate", length=100)
+    pbp.start(10)
+    pbp.place(relx=0.73, rely=0.86)
+    pbp_label = ttk.Label(root, text="Permissions Check In Progress", background="#000000", foreground="#FFFFFF")
+    pbp_label.place(relx=0.68, rely=0.82)
+    pbp_label.configure(text="Permissions Check In Progress")
 
+    def create_file_on_pc(remote_computers, pbp):
+        # Flag to track whether all checks are successful
+        all_successful = True
+        
+        # Loop through each remote computer and check permissions
+        for computer in remote_computers:
+            try:
+                remote_path = f"{computer}\\C$"  # Administrative share to access C: drive
+                permission_status = "Success"
+                error_message = ""
+
+                if os.path.exists(remote_path):
+                    print(f"Access to {remote_path} is available.")
+                
+                    test_file_path = f"{remote_path}\\test_permission_check.txt"
+                    try:
+                        with open(test_file_path, 'w') as test_file:
+                            test_file.write(f"Permission check successful on {computer} at {datetime.datetime.now()}")
+                            print(f"File created successfully at {test_file_path}")
+                    
+                        # Clean up after test
+                        os.remove(test_file_path)
+                        print(f"Test file {test_file_path} deleted.")
+                    
+                    except PermissionError:
+                        permission_status = "Permission Denied"
+                        error_message = f"Permission denied to create a file on {remote_path}\\C:\\."
+                        all_successful = False  # If any check fails, mark as not successful
+                    except Exception as e:
+                        permission_status = "Error"
+                        error_message = f"Error creating file: {str(e)}"
+                        all_successful = False  # If any check fails, mark as not successful
+                else:
+                    permission_status = "Access Denied"
+                    error_message = f"Access to {remote_path} is denied or the path does not exist."
+                    all_successful = False  # If access is denied, mark as not successful
+
+                # Insert result into the Treeview
+                permission_treeview.insert("", tk.END, values=(computer, permission_status, error_message))
+                permission_treeview.update_idletasks()
+        
+            except PermissionError:
+                permission_status = "Permission Denied"
+                error_message = f"Permission denied to access {computer}\\C\\."
+                permission_treeview.insert("", tk.END, values=(computer, permission_status, error_message))
+                permission_treeview.update_idletasks()
+                all_successful = False  # If permission denied, mark as not successful
+        
+            except Exception as e:
+                permission_status = "Error"
+                error_message = f"An error occurred: {str(e)}"
+                permission_treeview.insert("", tk.END, values=(computer, permission_status, error_message))
+                permission_treeview.update_idletasks()
+                all_successful = False  # If error occurs, mark as not successful
+
+        # Stop the progress bar once all checks are done
+        pbp.stop()
+        pbp.place_forget()
+        pbp_label.place_forget()
+
+        # Change the color of the b11 button based on the results
+        if all_successful:
+            b11.configure(bootstyle='success')  # Set to green (successful)
+        else:
+            b11.configure(bootstyle='danger')  # Set to red (failed)
+
+    # Create a new thread to run the permission check function asynchronously
+    threading.Thread(target=create_file_on_pc, args=(remote_computers, pbp), daemon=True).start()
+
+def update_treeview(permission_treeview, connected, disconnected):
+    # Clear current data in Treeview
+    for row in permission_treeview.get_children():
+        permission_treeview.delete(row)
+
+    # Insert connected devices as child nodes under the "Ping Status"
+    for device in connected:
+        permission_treeview.insert("", "end", text=device, values=(device, "Connected", ""))
+
+    # Insert disconnected devices as child nodes under the "Ping Status"
+    for device in disconnected:
+        permission_treeview.insert("", "end", text=device, values=(device, "Disconnected", "Error: No response"))
+
+    # Force the window to update (even if it's in a separate thread)
+    permission_treeview.update_idletasks()
+# The networking function
 def networking(battnumber, project, set, b9, diff_network, cop_ip):
     global pb_label
     global pb
-    
-    # Create a progress bar and label
-    if set == 'Main+Backup':
-        b9.configure(bootstyle='info')
-        pb = ttk.Progressbar(root, bootstyle='WARNinfoING', mode="indeterminate", length=100)
-        pb.place(relx=0.73, rely=0.72)
-        pb.start(10)
-        pb_label = ttk.Label(root, text="Networking Check In Progress",background="#000000",foreground="#FFFFFF")
-        pb_label.place(relx=0.68, rely=0.68)
-        pb_label.configure(text="Networking Check In Progress")
-    else:
-        b9.configure(bootstyle='info')
-        pb = ttk.Progressbar(root, bootstyle='info', mode="indeterminate", length=100)
-        pb.place(relx=0.73, rely=0.72)
-        pb.start(10)
-        pb_label = ttk.Label(root, text="Networking Check In Progress", background="#000000",foreground="#FFFFFF")
-        pb_label.place(relx=0.68, rely=0.68)
-        pb_label.configure(text="Networking Check In Progress")
 
-    # Create a thread to run the ping function
+    # Create the progress bar and label
+    b9.configure(bootstyle='info')
+    pb = ttk.Progressbar(root, bootstyle='info', mode="indeterminate", length=100)
+    pb.place(relx=0.73, rely=0.72)
+    pb.start(10)
+    pb_label = ttk.Label(root, text="Networking Check In Progress", background="#000000", foreground="#FFFFFF")
+    pb_label.place(relx=0.68, rely=0.68)
+    pb_label.configure(text="Networking Check In Progress")
+
+    # Create the status window for connected and disconnected devices
+    status_window = tk.Toplevel(root)
+    status_window.title("Ping Status")
+
+    # Create a label for the status
+    status_label = ttk.Label(status_window, text="Ping Test Status:", font=("Arial", 12, "bold"))
+    status_label.pack(pady=10)
+
+    # Create a Treeview to display the ping status (connected/disconnected)
+    permission_treeview = ttk.Treeview(status_window, columns=("Device", "Status", "Error Message"), show="headings", height=10)
+
+    # Define the column headings
+    permission_treeview.heading("Device", text="Device Name")
+    permission_treeview.heading("Status", text="Status")
+    permission_treeview.heading("Error Message", text="Error Message")
+
+    # Adjust column widths
+    permission_treeview.column("Device", width=200)
+    permission_treeview.column("Status", width=150)
+    permission_treeview.column("Error Message", width=300)
+
+    # Pack the Treeview widget with some padding
+    permission_treeview.pack(padx=10, pady=5, fill=tk.BOTH, expand=True)
+
+    # Add a close button
+    close_button = ttk.Button(status_window, text="Close", command=status_window.destroy)
+    close_button.pack(pady=20)
+
+    # Start the thread to perform the ping operation
     def ping_thread():
-        # Run the ping function and get the result
-        result = ping(battnumber, project, set, diff_network, cop_ip)
-        failures, connected, disconnected = ping(battnumber, project, set, diff_network, cop_ip)
-        # Update the progress bar and label
+        result = ping(battnumber, project, set, update_treeview, permission_treeview, diff_network, cop_ip)
+        failures, connected, disconnected = result
+
+        # If there are no failures, show success
         if failures == 0:
-            # update_progressbar(pb, 100)  # Assuming ping success should update to 100%
             messagebox.showinfo("Ping Success", "All pings were successful.")
             b9.configure(bootstyle='SUCCESS')
             pb.stop()
             pb_label.place_forget()
-            pb.place_forget()            
+            pb.place_forget()
         else:
             b9.configure(bootstyle='DANGER')
             pb.stop()
             pb_label.place_forget()
             pb.place_forget()
-            messagebox.showerror("Ping Failed", "There failures in the ping test.", icon="error")
-        network_map(connected,disconnected)
-    # Start the thread to run the ping function
+            messagebox.showerror("Ping Failed", "There were failures in the ping test.", icon="error")
+
+    # Start the ping thread
     threading.Thread(target=ping_thread, daemon=True).start()
 
-def software_check(battnumber,project,set, b10 ,cop_id=None):
+def software_check(battnumber, project, set, b10, cop_id=None):
     global pbs_label
     global pbs
 
     def log_error(error_message):
-    # Get the current time in a readable format
         current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
-    # Specify the log file path (adjust the path as needed)
-        log_file = f"{current_working_dir}\Logs\softwares_logs.log"
-
-    # Write the error message to the log file
+        log_file = f"{current_working_dir}\\Logs\\softwares_logs.log"
         with open(log_file, 'a') as log:
             log.write(f"[{current_time}] {error_message}\n")
-    installed_software = []
-    not_installed_software = []
+
     if set == 'Main+Backup':
         if cop_id:
-            remote_computers = [r'\\pc-bene',r'\\MC2-0{}'.format(battnumber),r'\\RC2-0{}'.format(battnumber),r'\\MICS-0{}'.format(battnumber),r'\\RICS-0{}'.format(battnumber),r'\\MDB-0{}'.format(battnumber),r'\\RDB-0{}'.format(battnumber),r'\\OC1'.format(battnumber),r'\\OC2'.format(battnumber),r'\\COP'.format(cop_id)]
+            remote_computers = [
+                r'\\pc-bene',
+                r'\\MC2-0{}'.format(battnumber),
+                r'\\RC2-0{}'.format(battnumber),
+                r'\\MICS-0{}'.format(battnumber),
+                r'\\RICS-0{}'.format(battnumber),
+                r'\\MDB-0{}'.format(battnumber),
+                r'\\RDB-0{}'.format(battnumber),
+                r'\\OC1'.format(battnumber),
+                r'\\OC2'.format(battnumber),
+                r'\\COP'.format(cop_id)
+            ]
         else:
-            remote_computers = [r'\\pc-bene',r'\\MC2-0{}'.format(battnumber),r'\\RC2-0{}'.format(battnumber),r'\\MICS-0{}'.format(battnumber),r'\\RICS-0{}'.format(battnumber),r'\\MDB-0{}'.format(battnumber),r'\\RDB-0{}'.format(battnumber),r'\\OC1'.format(battnumber),r'\\OC2'.format(battnumber)]
+            remote_computers = [
+                r'\\pc-bene',
+                f'\\MC2-0{battnumber}',
+                f'\\RC2-0{battnumber}',
+                f'\\MICS-0{battnumber}',
+                f'\\RICS-0{battnumber}',
+                f'\\MDB-0{battnumber}',
+                f'\\RDB-0{battnumber}',
+                r'\\OC1',
+                r'\\OC2'
+            ]
+        
         b10.configure(bootstyle='info')
         pbs = ttk.Progressbar(root, bootstyle='info', mode="indeterminate", length=100)
         pbs.start(10)
         pbs.place(relx=0.73, rely=0.79)
-        pbs_label = ttk.Label(root, text="Softwares Check In Progress", background="#000000",foreground="#FFFFFF")
+        pbs_label = ttk.Label(root, text="Softwares Check In Progress", background="#000000", foreground="#FFFFFF")
         pbs_label.place(relx=0.68, rely=0.75)
         pbs_label.configure(text="Softwares Check In Progress")
-        
-        def check_csv(computer_file):
-            csv_file = f"{current_working_dir}\Config\SoftwaresListConfig\software_list_{computer_file}.csv"
-                # If the file exists, load it
+
+        treeview_window = tk.Toplevel(root)
+        treeview_window.title("Software Check Progress")
+        treeview_window.geometry("800x400")  # Adjust the size as needed
+
+        treeview = ttk.Treeview(treeview_window, columns=("Computer", "Software", "Status"), show="headings")
+        treeview.heading("Computer", text="Computer")
+        treeview.heading("Software", text="Software")
+        treeview.heading("Status", text="Status")
+        treeview.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        def check_csv_for_computer(computer):
+            csv_file = f"{current_working_dir}\\Config\\SoftwaresListConfig\\software_list_{computer}.csv"
             if os.path.exists(csv_file):
                 search_name = {}
                 with open(csv_file, newline='', encoding='utf-8') as file:
                     csv_reader = csv.reader(file)
                     for row in csv_reader:
-                        if len(row) == 2:  # Ensure the row has software and version
+                        if len(row) == 2:
                             software, version = row
                             search_name[software] = version
                 return search_name
             else:
-                print(f"{csv_file} not found. Using default software list.")
-                return False  # Return default if file not found
+                log_message = f"ERROR: {csv_file} not found. Skipping software check for {computer}."
+                log_error(log_message)
+                print(f"ERROR: {csv_file} not found. Skipping software check for {computer}.")
+                return None
 
         def software_thread():
             registry_path_one = r"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
@@ -168,187 +464,59 @@ def software_check(battnumber,project,set, b10 ,cop_id=None):
             main_result = len(remote_computers)
             compare_main_result = 0
 
-            # Query the remote registry                 
             for computer in remote_computers:
-                helper = 0
-                if computer == '\\\\COP'.format(cop_id):
-                    if check_csv('COP') == False:
-                        search_name = {
-                    "Npcap": "0.9994",                       
-                    "Network Time Protocol": "4.2.4p6@vegas-v2-o-custom",
-                    "NTP Time Server Monitor 1.04": "0.9g",
-                    "Google Chrome": "131.0.6778.265",
-                    "Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720": "14.26.28720.3",
-                    "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127": "14.24.28127.4",
-                    "Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": "10.0.40219",
-                    "MOXA Smartio/Industio Windows Driver Ver3.1": "3.1",
-                    "7-Zip 9.20 (x64 edition)": "9.20.00.0",
-                    "Notepad++ (64-bit x64)": "7.8.4",
-                    }
-                        softwares_numbers = len(search_name)
-                    else:
-                        softwares_numbers = len(check_csv('COP'))
-                        search_name = check_csv('COP')
-                if computer == '\\\\MC2-0{}'.format(battnumber) or '\\\\RC2-0{}'.format(battnumber):
-                    if check_csv('C2') == False:
-                        search_name = {
-                    "Npcap": "0.9994",                       
-                    "Network Time Protocol": "4.2.4p6@vegas-v2-o-custom",
-                    "NTP Time Server Monitor 1.04": "0.9g",
-                    "Google Chrome": "131.0.6778.265",
-                    "Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720": "14.26.28720.3",
-                    "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127": "14.24.28127.4",
-                    "Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": "10.0.40219",
-                    "MOXA Smartio/Industio Windows Driver Ver3.1": "3.1",
-                    "7-Zip 9.20 (x64 edition)": "9.20.00.0",
-                    "Notepad++ (64-bit x64)": "7.8.4",
-                    }
-                        softwares_numbers = len(search_name)
-                    else:
-                        softwares_numbers = len(check_csv('C2'))
-                        search_name = check_csv('C2')
-                if computer == '\\\\MICS-0{}'.format(battnumber) or '\\\\RICS-0{}'.format(battnumber):
-                    if check_csv('ICS') == False:
-                        search_name = {
-                    "Npcap": "0.9994",                       
-                    "Network Time Protocol": "4.2.4p6@vegas-v2-o-custom",
-                    "NTP Time Server Monitor 1.04": "0.9g",
-                    "Google Chrome": "131.0.6778.265",
-                    "Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720": "14.26.28720.3",
-                    "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127": "14.24.28127.4",
-                    "Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": "10.0.40219",
-                    "MOXA Smartio/Industio Windows Driver Ver3.1": "3.1",
-                    "7-Zip 9.20 (x64 edition)": "9.20.00.0",
-                    "Notepad++ (64-bit x64)": "7.8.4",
-                    }
-                        softwares_numbers = len(search_name)
-                    else:
-                        softwares_numbers = len(check_csv('ICS'))
-                        search_name = check_csv('ICS')
-                if computer == '\\\\MDB-0{}'.format(battnumber) or '\\\\RDB-0{}'.format(battnumber):
-                    if check_csv('DB') == False:
-                        search_name = {
-                    "Npcap": "0.9994",                       
-                    "Network Time Protocol": "4.2.4p6@vegas-v2-o-custom",
-                    "NTP Time Server Monitor 1.04": "0.9g",
-                    "Google Chrome": "131.0.6778.265",
-                    "Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720": "14.26.28720.3",
-                    "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127": "14.24.28127.4",
-                    "Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": "10.0.40219",
-                    "MOXA Smartio/Industio Windows Driver Ver3.1": "3.1",
-                    "7-Zip 9.20 (x64 edition)": "9.20.00.0",
-                    "Notepad++ (64-bit x64)": "7.8.4",
-                    }
-                        softwares_numbers = len(search_name)
-                    else:
-                        softwares_numbers = len(check_csv('DB'))
-                        search_name = check_csv('DB')
-                if computer == '\\\\OC1-0{}'.format(battnumber) or '\\\\OC2-0{}'.format(battnumber):
-                    if check_csv('OC') == False:
-                        search_name = {
-                    "Npcap": "0.9994",                       
-                    "Network Time Protocol": "4.2.4p6@vegas-v2-o-custom",
-                    "NTP Time Server Monitor 1.04": "0.9g",
-                    "Google Chrome": "131.0.6778.265",
-                    "Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720": "14.26.28720.3",
-                    "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127": "14.24.28127.4",
-                    "Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127": "14.24.28127",
-                    "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161": "9.0.30729.6161",
-                    "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": "10.0.40219",
-                    "MOXA Smartio/Industio Windows Driver Ver3.1": "3.1",
-                    "7-Zip 9.20 (x64 edition)": "9.20.00.0",
-                    "Notepad++ (64-bit x64)": "7.8.4",
-                    }
-                        softwares_numbers = len(search_name)
-                    else:
-                        softwares_numbers = len(check_csv('OC'))
-                        search_name = check_csv('OC')
+                search_name = check_csv_for_computer(computer)
 
-                for software, version in search_name.items():  # Iterate through the dictionary
+                if search_name is None:
+                    continue
+
+                installed_software = []
+                not_installed_software = []
+                for software, version in search_name.items():
+                    # Check the first registry path
                     results = query_remote_registry(computer, registry_path_one, software)
+                    
                     if results == "[WinError 53] The network path was not found":
                         log_message = f"[WinError 53] The network path was not found for {computer}"
-                        log_error(log_message)  
+                        log_error(log_message)
                     elif results:
                         for result in results:
                             software_version = result.get('DisplayVersion')
                             software_name = result.get('DisplayName')
                             if software_name == software and software_version == version:
-                                print(f"DisplayName: {result['DisplayName']}, DisplayVersion: {software_version}")
-                                log_message = f"SUCCESS: {result['DisplayName']} Version {software_version} installed on {computer}"
-                                log_error(log_message)
-                                installed_software.append(software_name)
-                                helper += 1
+                                installed_software.append({"software": software_name, "version": software_version})
+                                compare_main_result += 1  # Increment successful result count
                             else:
-                                print(f"DisplayName: {result['DisplayName']}, DisplayVersion: {software_version}")
-                                log_message = f"ERROR: {result['DisplayName']} Installed with Version {software_version} instead of {version} on {computer}"
-                                log_error(log_message)
-                                not_installed_software.append(software_name)
-                                open_results_window(installed_software,not_installed_software)                                                              
-                    elif results:
-                        # If no result from the first path, query the second registry path
+                                not_installed_software.append({"software": software_name, "version": software_version})
+                    else:
+                        # If no results found in the first path, check the second path
                         results = query_remote_registry(computer, registry_path_two, software)
                         if results:
                             for result in results:
                                 software_version = result.get('DisplayVersion')
                                 software_name = result.get('DisplayName')
-                                if software_version == version:
-                                    print(f"DisplayName: {result['DisplayName']}, DisplayVersion: {software_version}")
-                                    log_message = f"SUCCESS: {result['DisplayName']} Version {software_version} installed on {computer}"
-                                    log_error(log_message)
-                                    installed_software.append(software_name)
-                                    helper += 1
-                                    open_results_window(installed_software,not_installed_software)
+                                if software_name == software and software_version == version:
+                                    installed_software.append({"software": software_name, "version": software_version})
+                                    compare_main_result += 1  # Increment successful result count
                                 else:
-                                    print(f"DisplayName: {result['DisplayName']}, DisplayVersion: {software_version}")
-                                    log_message = f"ERROR: {result['DisplayName']} Installed with Version {software_version} instead of {version} on {computer}"
-                                    log_error(log_message)
-                                    not_installed_software.append(software_name)   
-                                    open_results_window(installed_software,not_installed_software)      
-                    else:
-                            print(f"DisplayName: {software}, DisplayVersion: {version}")
-                            log_message = f"ERROR: {software} {version} not Installed on {computer}"
-                            log_error(log_message)
-                    
-                if helper == softwares_numbers:
-                    compare_main_result += 1
-                    messagebox.showWARNING('Softwares', f"{computer} have all of the softwares installed" )
-                    log_message = f"SUCCESS: {computer} have all of the softwares installed"
-                    log_error(log_message) 
-                else:
-                    messagebox.showerror('Softwares', f"{computer} have {helper} of {softwares_numbers} softwares installed" )
-                    log_message = f"ERROR: {computer} have {helper} of {softwares_numbers} softwares installed"
-                    log_error(log_message)                                     
+                                    not_installed_software.append({"software": software_name, "version": software_version})
+                        else:
+                            not_installed_software.append({"software": software, "version": version})
 
+            # Now, compare main result to check if all computers were processed
             if main_result == compare_main_result:
                 b10.configure(bootstyle='SUCCESS')
                 pbs.stop()
-                pbs.place_forget
-                pbs_label.place_forget
+                pbs.place_forget()
+                pbs_label.place_forget()
+                print("All software checks completed successfully.")
             else:
                 b10.configure(bootstyle='DANGER')
                 pbs.stop()
                 pbs.place_forget()
                 pbs_label.place_forget()
-                
+                print(f"Some software checks failed. Completed checks: {compare_main_result}/{main_result}")
+
         # Start the threading
         threading.Thread(target=software_thread, daemon=True).start()
 
@@ -932,10 +1100,10 @@ def system_check_health_all_system():
     b10 = ttk.Button(root, text="Softwares", bootstyle=('WARNING', INSIDE), command=lambda: software_check(cb1.get(), cb3.get(), cb2.get(), b10, cop_id=entry_cop_id_value.get()), width=30)
     b10.place(relx=0.31, rely=0.78)  # Positioned at 31% from left, 76% from top
 
-    b11 = ttk.Button(root, text="Permissions", bootstyle=('WARNING', INSIDE), command=lambda: check_permission_to_c(cb1.get(), cb3.get(), cb2.get(), b11), width=30)
+    b11 = ttk.Button(root, text="Permissions", bootstyle=('WARNING', INSIDE), command=lambda: check_permission_to_c(cb1.get(), cb3.get(), cb2.get(), b11, cop_id=entry_cop_id_value.get()), width=30)
     b11.place(relx=0.31, rely=0.85)  # Positioned at 31% from left, 81% from top
 
-    b12 = ttk.Button(root, text="Disk Space", bootstyle=('WARNING', INSIDE), command=networking, width=30)
+    b12 = ttk.Button(root, text="Disk Space", bootstyle=('WARNING', INSIDE), command=lambda: disk_space_window(cb1.get(), cb3.get(), cb2.get(), b12, cop_id=entry_cop_id_value.get()), width=30)
     b12.place(relx=0.31, rely=0.92)  # Positioned at 31% from left, 86% from top
  
 def system_check_health_self():
@@ -1140,6 +1308,7 @@ def back(b9, b10, b11, b12, b7, cb2, cb1, battey_label, sets_label, projects_lab
     # If you want the buttons to be flexible, adjust them dynamically
     # If you want fixed positioning, just keep using `place` as before
     # You can also add code to dynamically adjust button sizes based on the window size if necessary
+
 
 
 # Create the main windows of the app

@@ -2553,3 +2553,2091 @@
 [2025-01-15 17:29:16] ERROR: Infognition ScreenPressor v4.2 (Remove Only)  not Installed on \\pc-bene
 [2025-01-15 17:29:19] ERROR: WinMerge 2.14.0 2.14.0 not Installed on \\pc-bene
 [2025-01-15 17:29:23] ERROR: WinPcap 4.1.2 4.1.0.2001 not Installed on \\pc-bene
+[2025-01-19 14:44:04] ERROR: DisplayName DisplayVersion not Installed on \\pc-bene
+[2025-01-19 14:45:27] ERROR: DisplayName DisplayVersion not Installed on \\pc-bene
+[2025-01-19 14:45:31] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 14:45:34] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 14:45:39] ERROR: Microsoft Edge 80.0.361.61 not Installed on \\pc-bene
+[2025-01-19 14:45:42] ERROR: Microsoft Edge Update 1.3.119.43 not Installed on \\pc-bene
+[2025-01-19 14:45:46] ERROR: Microsoft Help Viewer 2.3 2.3.28107 not Installed on \\pc-bene
+[2025-01-19 14:45:50] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 14:45:54] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 14:46:22] ERROR: DisplayName DisplayVersion not Installed on \\pc-bene
+[2025-01-19 14:46:26] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 14:46:30] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 14:46:34] ERROR: Microsoft Edge 80.0.361.61 not Installed on \\pc-bene
+[2025-01-19 14:46:38] ERROR: Microsoft Edge Update 1.3.119.43 not Installed on \\pc-bene
+[2025-01-19 14:46:43] ERROR: Microsoft Help Viewer 2.3 2.3.28107 not Installed on \\pc-bene
+[2025-01-19 14:46:47] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 14:46:51] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 14:46:55] ERROR: PyCharm Community Edition 2022.3.2 223.8617.48 not Installed on \\pc-bene
+[2025-01-19 14:46:58] ERROR: Infognition ScreenPressor v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 14:47:02] ERROR: WinMerge 2.14.0 2.14.0 not Installed on \\pc-bene
+[2025-01-19 14:47:06] ERROR: WinPcap 4.1.2 4.1.0.2001 not Installed on \\pc-bene
+[2025-01-19 14:47:10] ERROR: Wireshark 1.4.9 1.4.9 not Installed on \\pc-bene
+[2025-01-19 14:47:13] ERROR: NetApp PowerShell Toolkit 9.8.0 not Installed on \\pc-bene
+[2025-01-19 14:47:17] ERROR: MobaXterm 10.5.0.3582 not Installed on \\pc-bene
+[2025-01-19 14:47:20] ERROR: Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005 12.0.21005 not Installed on \\pc-bene
+[2025-01-19 14:47:24] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 14:47:28] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 14:47:32] ERROR: Microsoft Analysis Services OLE DB Provider Installed with Version 15.0.2000.832 instead of 15.0.2000.568 on \\pc-bene
+[2025-01-19 14:47:35] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.22.27821 14.22.27821.0 not Installed on \\pc-bene
+[2025-01-19 14:47:39] ERROR: Google Update Helper 1.3.36.51 not Installed on \\pc-bene
+[2025-01-19 14:47:43] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.22.27821 14.22.27821.0 not Installed on \\pc-bene
+[2025-01-19 14:47:46] ERROR: Intel(R) Trusted Connect Services Client 1.61.251.0 not Installed on \\pc-bene
+[2025-01-19 14:47:50] ERROR: Integration Services 15.0.2000.162 not Installed on \\pc-bene
+[2025-01-19 14:47:54] ERROR: Microsoft Visual Studio Tools for Applications 2017 x86 Hosting Support 15.0.27520 not Installed on \\pc-bene
+[2025-01-19 14:47:57] ERROR: Visual Studio 2017 Isolated Shell for SSMS 15.0.28307.421 not Installed on \\pc-bene
+[2025-01-19 14:48:01] ERROR: Microsoft SQL Server Management Studio - 18.9.1 15.0.18384.0 not Installed on \\pc-bene
+[2025-01-19 14:48:05] ERROR: Intel(R) Trusted Connect Service Client x86 1.61.251.0 not Installed on \\pc-bene
+[2025-01-19 14:48:09] ERROR: Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030 11.0.61030.0 not Installed on \\pc-bene
+[2025-01-19 14:48:13] SUCCESS: Microsoft VC++ redistributables repacked. Version 12.0.0.0 installed on \\pc-bene
+[2025-01-19 14:48:16] ERROR: Intel(R) Processor Graphics 21.20.16.5103 not Installed on \\pc-bene
+[2025-01-19 14:48:20] ERROR: Realtek High Definition Audio Driver 6.0.1.8261 not Installed on \\pc-bene
+[2025-01-19 14:48:24] ERROR: Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501 12.0.30501.0 not Installed on \\pc-bene
+[2025-01-19 14:48:28] ERROR: Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support Installed with Version 15.0.27520 instead of 15.0.27520 on \\pc-bene
+[2025-01-19 14:48:31] ERROR: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005 12.0.21005 not Installed on \\pc-bene
+[2025-01-19 14:48:35] ERROR: Microsoft Office 365 - en-us 16.0.12527.20482 not Installed on \\pc-bene
+[2025-01-19 14:48:39] ERROR: Intel(R) Network Connections 26.3.0.2 26.3.0.2 not Installed on \\pc-bene
+[2025-01-19 14:48:42] ERROR: ScreenPressor x64 v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 14:48:46] ERROR: Vulkan Run Time Libraries 1.0.33.0 1.0.33.0 not Installed on \\pc-bene
+[2025-01-19 14:48:49] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 14:48:53] SUCCESS: Intel(R) Management Engine Components Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 14:48:53] ERROR: Intel(R) Management Engine Components Installed with Version 2141.15.0.2511 instead of 1.0.0.0 on \\pc-bene
+[2025-01-19 14:48:53] SUCCESS: Intel(R) Management Engine Components Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 14:48:53] SUCCESS: Intel(R) Management Engine Components Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 14:48:57] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 14:49:00] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022 9.0.21022 not Installed on \\pc-bene
+[2025-01-19 14:49:04] SUCCESS: Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030 Version 11.0.61030 installed on \\pc-bene
+[2025-01-19 14:49:08] ERROR: Intel(R) Rapid Storage Technology 16.8.3.1004 not Installed on \\pc-bene
+[2025-01-19 14:49:12] ERROR: Intel? Optane? Pinning Explorer Extensions 16.8.3.1003 not Installed on \\pc-bene
+[2025-01-19 14:49:15] ERROR: VC_CRT_x64 1.02.0000 not Installed on \\pc-bene
+[2025-01-19 14:49:19] ERROR: Azure Data Studio Installed with Version 1.37.0 instead of 1.28.0 on \\pc-bene
+[2025-01-19 14:49:23] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 14:49:26] ERROR: SQL Server Management Studio for Analysis Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:49:30] ERROR: SQL Server Management Studio for Reporting Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:49:33] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17 9.0.30729 not Installed on \\pc-bene
+[2025-01-19 14:49:37] ERROR: Microsoft ODBC Driver 17 for SQL Server Installed with Version 17.10.6.1 instead of 17.7.2.1 on \\pc-bene
+[2025-01-19 14:49:41] ERROR: Office 16 Click-to-Run Licensing Component Installed with Version 16.0.17425.20176 instead of 16.0.12527.20482 on \\pc-bene
+[2025-01-19 14:49:45] ERROR: Office 16 Click-to-Run Extensibility Component Installed with Version 16.0.18324.20092 instead of 16.0.12527.20482 on \\pc-bene
+[2025-01-19 14:49:48] ERROR: Office 16 Click-to-Run Localization Component 16.0.12527.20482 not Installed on \\pc-bene
+[2025-01-19 14:49:52] ERROR: Microsoft OLE DB Driver for SQL Server Installed with Version 18.7.4.0 instead of 18.5.0.0 on \\pc-bene
+[2025-01-19 14:49:56] SUCCESS: Microsoft SQL Server 2012 Native Client  Version 11.4.7462.6 installed on \\pc-bene
+[2025-01-19 14:49:59] ERROR: SQL Server Management Studio for Analysis Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:49:59] ERROR: SQL Server Management Studio Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:49:59] ERROR: SQL Server Management Studio for Reporting Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:49:59] ERROR: SQL Server Management Studio Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:50:03] ERROR: Wyse Device Agent 14.2.0.52 not Installed on \\pc-bene
+[2025-01-19 14:50:07] SUCCESS: Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support Version 15.0.27520 installed on \\pc-bene
+[2025-01-19 14:50:11] ERROR: NVIDIA Ansel 7.1.677.0 not Installed on \\pc-bene
+[2025-01-19 14:50:15] ERROR: NVIDIA Control Panel 461.40 461.40 not Installed on \\pc-bene
+[2025-01-19 14:50:19] ERROR: NVIDIA Graphics Driver 461.40 461.40 not Installed on \\pc-bene
+[2025-01-19 14:50:24] ERROR: NVIDIA RTX Desktop Manager 201.18 201.18 not Installed on \\pc-bene
+[2025-01-19 14:50:28] ERROR: NVIDIA WMI 2.36.0 2.36.0 not Installed on \\pc-bene
+[2025-01-19 14:50:31] ERROR: NVIDIA Install Application 2.1002.346.0 not Installed on \\pc-bene
+[2025-01-19 14:50:35] ERROR: NVIDIA Display MessageBus 461.40 not Installed on \\pc-bene
+[2025-01-19 14:50:39] ERROR: NVIDIA Display Container 1.28 not Installed on \\pc-bene
+[2025-01-19 14:50:42] ERROR: NVIDIA Display Container LS 1.28 not Installed on \\pc-bene
+[2025-01-19 14:50:46] ERROR: NVIDIA Display Watchdog Plugin 1.28 not Installed on \\pc-bene
+[2025-01-19 14:50:51] ERROR: NVIDIA Display Session Container 1.28 not Installed on \\pc-bene
+[2025-01-19 14:50:55] ERROR: SSMS Post Install Tasks Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 14:50:59] ERROR: Intel(R) Trusted Connect Service Client x64 Installed with Version 1.63.1155.1 instead of 1.61.251.0 on \\pc-bene
+[2025-01-19 14:51:03] SUCCESS: Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030 Version 11.0.61030 installed on \\pc-bene
+[2025-01-19 14:51:08] SUCCESS: Intel(R) Management Engine Driver Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 14:51:12] ERROR: Microsoft Command Line Utilities 15 for SQL Server 15.0.2000.5 not Installed on \\pc-bene
+[2025-01-19 14:51:24] ERROR: \\pc-bene have 9 of 77 softwares installed
+[2025-01-19 14:53:09] ERROR: DisplayName DisplayVersion not Installed on \\pc-bene
+[2025-01-19 14:53:12] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 14:53:16] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 14:54:58] ERROR: DisplayName DisplayVersion not Installed on \\pc-bene
+[2025-01-19 14:55:03] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 15:02:53] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:02:57] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:03:00] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:03:05] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:03:09] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:03:12] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:03:16] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:03:21] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:03:25] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:03:29] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:03:34] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:03:38] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:03:42] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:03:46] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:03:49] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:03:54] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:03:58] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:04:02] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 15:04:05] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 15:08:04] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:08:08] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:08:11] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:08:15] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:08:19] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:08:22] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:08:26] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:08:30] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:08:58] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:09:01] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:09:05] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:09:09] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:09:12] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:09:16] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:09:20] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:09:24] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:09:28] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:09:31] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:09:35] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:09:39] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:09:42] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:09:46] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:09:49] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:09:55] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:09:59] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:10:02] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 15:10:06] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 15:10:09] ERROR: Microsoft Edge 80.0.361.61 not Installed on \\pc-bene
+[2025-01-19 15:10:12] ERROR: Microsoft Edge Update 1.3.119.43 not Installed on \\pc-bene
+[2025-01-19 15:10:16] ERROR: Microsoft Help Viewer 2.3 2.3.28107 not Installed on \\pc-bene
+[2025-01-19 15:10:19] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:10:22] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:10:25] ERROR: PyCharm Community Edition 2022.3.2 223.8617.48 not Installed on \\pc-bene
+[2025-01-19 15:10:28] ERROR: Infognition ScreenPressor v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 15:10:31] ERROR: WinMerge 2.14.0 2.14.0 not Installed on \\pc-bene
+[2025-01-19 15:10:34] ERROR: WinPcap 4.1.2 4.1.0.2001 not Installed on \\pc-bene
+[2025-01-19 15:10:37] ERROR: Wireshark 1.4.9 1.4.9 not Installed on \\pc-bene
+[2025-01-19 15:10:40] ERROR: NetApp PowerShell Toolkit 9.8.0 not Installed on \\pc-bene
+[2025-01-19 15:16:48] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:16:52] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:16:55] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:17:00] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:17:04] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:17:08] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:17:12] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:17:16] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:17:20] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:17:24] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:17:28] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:17:32] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:17:36] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:17:40] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:17:45] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:17:49] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:17:54] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:17:58] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:18:02] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:18:06] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:18:11] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 15:18:16] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 15:18:20] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:18:24] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:18:28] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:18:32] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:18:36] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:18:40] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 15:18:44] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:18:48] ERROR: PComm Lite Ver1.6  not Installed on \\pc-bene
+[2025-01-19 15:18:52] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:18:56] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 15:19:00] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:19:04] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:19:08] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:19:11] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 15:19:15] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 15:19:19] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:19:23] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:19:27] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:27:40] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:27:44] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:27:48] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:27:53] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:27:57] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:28:02] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:28:06] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:28:10] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:28:15] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:28:19] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:28:23] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:28:27] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:28:31] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:28:36] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:28:41] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:28:47] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:28:52] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:33:16] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:33:19] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:33:23] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:33:27] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:33:31] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:33:34] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:33:38] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:33:42] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:33:45] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:33:49] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:33:55] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:33:59] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:34:05] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:34:09] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:34:13] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:34:17] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:34:21] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:37:24] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:37:28] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:37:31] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:37:35] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:37:38] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:37:42] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:37:47] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:37:51] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:37:55] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:38:00] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:38:04] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:38:10] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:38:14] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:38:18] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:38:23] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:38:27] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:38:31] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:38:41] ERROR: \\pc-bene have 0 of 17 softwares installed
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:48] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 15:38:50] ERROR: \\MC2-01 have 0 of 20 softwares installed
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:38:52] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 15:39:14] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:39:18] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:39:21] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:39:25] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:39:29] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:39:33] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:39:37] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:39:40] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:39:44] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:39:48] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:39:51] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:39:56] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:39:59] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:40:03] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:40:07] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:40:11] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:40:15] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:40:19] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:40:23] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:40:27] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:40:31] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 15:40:35] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 15:40:38] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:40:42] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:40:46] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:43:19] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:43:22] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:43:26] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:43:29] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:43:33] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:43:37] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:43:40] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:43:44] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:43:48] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:43:52] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:43:55] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:43:59] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:44:03] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:44:06] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:44:10] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:44:13] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:44:17] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:44:21] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:44:25] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:44:28] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:44:32] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 15:44:35] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 15:44:39] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:44:44] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:44:48] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:44:52] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:44:56] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:45:02] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 15:45:07] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:45:19] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:45:22] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:45:26] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:45:30] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:45:33] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:45:37] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:45:41] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:45:45] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:45:48] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:45:52] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:45:55] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:45:59] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:46:03] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:46:06] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:46:10] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:46:13] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:46:16] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:46:19] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:46:23] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:46:27] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:46:31] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 15:46:35] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 15:46:39] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:46:44] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:46:47] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:46:52] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:46:55] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:46:59] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 15:47:02] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:47:06] ERROR: PComm Lite Ver1.6  not Installed on \\pc-bene
+[2025-01-19 15:47:10] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:47:13] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 15:47:17] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:47:20] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:47:24] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:47:28] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 15:47:32] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 15:51:19] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:51:22] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:51:26] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 15:51:29] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:51:33] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:51:36] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:51:40] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:51:43] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:51:47] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:51:51] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 15:51:54] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:51:58] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:52:01] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:52:05] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:52:10] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:52:14] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:52:17] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:52:21] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:52:25] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:52:28] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:52:32] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 15:52:35] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 15:52:39] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:52:43] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:52:46] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:52:50] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:52:53] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:52:57] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 15:53:01] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:53:04] ERROR: PComm Lite Ver1.6  not Installed on \\pc-bene
+[2025-01-19 15:53:07] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:53:11] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 15:53:15] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 15:53:18] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:53:22] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 15:53:25] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 15:53:29] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 15:53:32] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:53:36] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:53:40] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:53:43] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 15:53:47] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:53:50] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:53:54] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:53:58] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 15:54:01] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:54:05] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:54:09] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 15:54:12] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 15:54:16] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 15:54:19] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 15:54:23] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 15:54:26] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 15:54:30] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 15:54:34] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 15:54:37] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 15:54:41] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 15:54:44] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 15:54:48] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 16:00:47] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 16:00:51] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 16:00:54] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 16:00:58] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 16:01:01] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:01:05] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:01:08] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 16:01:12] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:01:16] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 16:01:19] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 16:01:23] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 16:01:27] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 16:01:30] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 16:01:34] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:01:37] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 16:01:41] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:01:45] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:01:49] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 16:01:53] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 16:01:56] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 16:02:00] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 16:02:03] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 16:02:07] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:02:11] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 16:02:15] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:02:18] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 16:02:22] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:02:25] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 16:02:29] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 16:02:33] ERROR: PComm Lite Ver1.6  not Installed on \\pc-bene
+[2025-01-19 16:02:36] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 16:02:40] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 16:02:44] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 16:02:48] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:02:52] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 16:02:55] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 16:03:00] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 16:03:04] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 16:03:08] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 16:03:11] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 16:03:15] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 16:03:18] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:03:22] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 16:03:25] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:03:29] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 16:03:33] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:03:38] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:03:43] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 16:03:47] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 16:03:51] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 16:03:55] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 16:03:59] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 16:04:03] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 16:04:08] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 16:04:11] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 16:04:15] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:04:20] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 16:04:23] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:04:27] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 16:04:30] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 16:04:34] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 16:04:37] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 16:04:41] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 16:04:44] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 16:04:48] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 16:04:52] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 16:04:55] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 16:04:59] ERROR: Microsoft Edge 80.0.361.61 not Installed on \\pc-bene
+[2025-01-19 16:05:03] ERROR: Microsoft Edge Update 1.3.119.43 not Installed on \\pc-bene
+[2025-01-19 16:05:06] ERROR: Microsoft Help Viewer 2.3 2.3.28107 not Installed on \\pc-bene
+[2025-01-19 16:05:10] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 16:05:14] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 16:05:18] ERROR: PyCharm Community Edition 2022.3.2 223.8617.48 not Installed on \\pc-bene
+[2025-01-19 16:05:21] ERROR: Infognition ScreenPressor v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 16:05:25] ERROR: WinMerge 2.14.0 2.14.0 not Installed on \\pc-bene
+[2025-01-19 16:05:28] ERROR: WinPcap 4.1.2 4.1.0.2001 not Installed on \\pc-bene
+[2025-01-19 16:05:32] ERROR: Wireshark 1.4.9 1.4.9 not Installed on \\pc-bene
+[2025-01-19 16:05:36] ERROR: NetApp PowerShell Toolkit 9.8.0 not Installed on \\pc-bene
+[2025-01-19 16:05:39] ERROR: MobaXterm 10.5.0.3582 not Installed on \\pc-bene
+[2025-01-19 16:05:43] ERROR: Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005 12.0.21005 not Installed on \\pc-bene
+[2025-01-19 16:05:46] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 16:05:50] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 16:05:53] ERROR: Microsoft Analysis Services OLE DB Provider Installed with Version 15.0.2000.832 instead of 15.0.2000.568 on \\pc-bene
+[2025-01-19 16:05:57] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.22.27821 14.22.27821.0 not Installed on \\pc-bene
+[2025-01-19 16:06:01] ERROR: Google Update Helper 1.3.36.51 not Installed on \\pc-bene
+[2025-01-19 16:06:04] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.22.27821 14.22.27821.0 not Installed on \\pc-bene
+[2025-01-19 16:06:08] ERROR: Intel(R) Trusted Connect Services Client 1.61.251.0 not Installed on \\pc-bene
+[2025-01-19 16:06:12] ERROR: Integration Services 15.0.2000.162 not Installed on \\pc-bene
+[2025-01-19 16:06:15] ERROR: Microsoft Visual Studio Tools for Applications 2017 x86 Hosting Support 15.0.27520 not Installed on \\pc-bene
+[2025-01-19 16:06:19] ERROR: Visual Studio 2017 Isolated Shell for SSMS 15.0.28307.421 not Installed on \\pc-bene
+[2025-01-19 16:06:23] ERROR: Microsoft SQL Server Management Studio - 18.9.1 15.0.18384.0 not Installed on \\pc-bene
+[2025-01-19 16:06:26] ERROR: Intel(R) Trusted Connect Service Client x86 1.61.251.0 not Installed on \\pc-bene
+[2025-01-19 16:06:29] ERROR: Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030 11.0.61030.0 not Installed on \\pc-bene
+[2025-01-19 16:06:33] SUCCESS: Microsoft VC++ redistributables repacked. Version 12.0.0.0 installed on \\pc-bene
+[2025-01-19 16:06:37] ERROR: Intel(R) Processor Graphics 21.20.16.5103 not Installed on \\pc-bene
+[2025-01-19 16:06:40] ERROR: Realtek High Definition Audio Driver 6.0.1.8261 not Installed on \\pc-bene
+[2025-01-19 16:06:43] ERROR: Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501 12.0.30501.0 not Installed on \\pc-bene
+[2025-01-19 16:06:47] ERROR: Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support Installed with Version 15.0.27520 instead of 15.0.27520 on \\pc-bene
+[2025-01-19 16:06:51] ERROR: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005 12.0.21005 not Installed on \\pc-bene
+[2025-01-19 16:06:54] ERROR: Microsoft Office 365 - en-us 16.0.12527.20482 not Installed on \\pc-bene
+[2025-01-19 16:06:58] ERROR: Intel(R) Network Connections 26.3.0.2 26.3.0.2 not Installed on \\pc-bene
+[2025-01-19 16:07:01] ERROR: ScreenPressor x64 v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 16:07:05] ERROR: Vulkan Run Time Libraries 1.0.33.0 1.0.33.0 not Installed on \\pc-bene
+[2025-01-19 16:07:09] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 16:07:12] SUCCESS: Intel(R) Management Engine Components Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 16:07:12] ERROR: Intel(R) Management Engine Components Installed with Version 2141.15.0.2511 instead of 1.0.0.0 on \\pc-bene
+[2025-01-19 16:07:12] SUCCESS: Intel(R) Management Engine Components Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 16:07:12] SUCCESS: Intel(R) Management Engine Components Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 16:07:16] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 16:07:19] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022 9.0.21022 not Installed on \\pc-bene
+[2025-01-19 16:07:23] SUCCESS: Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030 Version 11.0.61030 installed on \\pc-bene
+[2025-01-19 16:07:27] ERROR: Intel(R) Rapid Storage Technology 16.8.3.1004 not Installed on \\pc-bene
+[2025-01-19 16:07:30] ERROR: Intel? Optane? Pinning Explorer Extensions 16.8.3.1003 not Installed on \\pc-bene
+[2025-01-19 16:07:34] ERROR: VC_CRT_x64 1.02.0000 not Installed on \\pc-bene
+[2025-01-19 16:07:38] ERROR: Azure Data Studio Installed with Version 1.37.0 instead of 1.28.0 on \\pc-bene
+[2025-01-19 16:07:41] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 16:07:45] ERROR: SQL Server Management Studio for Analysis Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:07:48] ERROR: SQL Server Management Studio for Reporting Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:07:52] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17 9.0.30729 not Installed on \\pc-bene
+[2025-01-19 16:07:56] ERROR: Microsoft ODBC Driver 17 for SQL Server Installed with Version 17.10.6.1 instead of 17.7.2.1 on \\pc-bene
+[2025-01-19 16:07:59] ERROR: Office 16 Click-to-Run Licensing Component Installed with Version 16.0.17425.20176 instead of 16.0.12527.20482 on \\pc-bene
+[2025-01-19 16:08:03] ERROR: Office 16 Click-to-Run Extensibility Component Installed with Version 16.0.18324.20092 instead of 16.0.12527.20482 on \\pc-bene
+[2025-01-19 16:08:07] ERROR: Office 16 Click-to-Run Localization Component 16.0.12527.20482 not Installed on \\pc-bene
+[2025-01-19 16:08:10] ERROR: Microsoft OLE DB Driver for SQL Server Installed with Version 18.7.4.0 instead of 18.5.0.0 on \\pc-bene
+[2025-01-19 16:08:15] SUCCESS: Microsoft SQL Server 2012 Native Client  Version 11.4.7462.6 installed on \\pc-bene
+[2025-01-19 16:08:18] ERROR: SQL Server Management Studio for Analysis Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:08:18] ERROR: SQL Server Management Studio Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:08:18] ERROR: SQL Server Management Studio for Reporting Services Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:08:18] ERROR: SQL Server Management Studio Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:08:22] ERROR: Wyse Device Agent 14.2.0.52 not Installed on \\pc-bene
+[2025-01-19 16:08:26] SUCCESS: Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support Version 15.0.27520 installed on \\pc-bene
+[2025-01-19 16:08:30] ERROR: NVIDIA Ansel 7.1.677.0 not Installed on \\pc-bene
+[2025-01-19 16:08:34] ERROR: NVIDIA Control Panel 461.40 461.40 not Installed on \\pc-bene
+[2025-01-19 16:08:38] ERROR: NVIDIA Graphics Driver 461.40 461.40 not Installed on \\pc-bene
+[2025-01-19 16:08:42] ERROR: NVIDIA RTX Desktop Manager 201.18 201.18 not Installed on \\pc-bene
+[2025-01-19 16:08:46] ERROR: NVIDIA WMI 2.36.0 2.36.0 not Installed on \\pc-bene
+[2025-01-19 16:08:50] ERROR: NVIDIA Install Application 2.1002.346.0 not Installed on \\pc-bene
+[2025-01-19 16:08:53] ERROR: NVIDIA Display MessageBus 461.40 not Installed on \\pc-bene
+[2025-01-19 16:08:57] ERROR: NVIDIA Display Container 1.28 not Installed on \\pc-bene
+[2025-01-19 16:09:00] ERROR: NVIDIA Display Container LS 1.28 not Installed on \\pc-bene
+[2025-01-19 16:09:04] ERROR: NVIDIA Display Watchdog Plugin 1.28 not Installed on \\pc-bene
+[2025-01-19 16:09:08] ERROR: NVIDIA Display Session Container 1.28 not Installed on \\pc-bene
+[2025-01-19 16:09:13] ERROR: SSMS Post Install Tasks Installed with Version 15.0.18424.0 instead of 15.0.18384.0 on \\pc-bene
+[2025-01-19 16:09:16] ERROR: Intel(R) Trusted Connect Service Client x64 Installed with Version 1.63.1155.1 instead of 1.61.251.0 on \\pc-bene
+[2025-01-19 16:09:20] SUCCESS: Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030 Version 11.0.61030 installed on \\pc-bene
+[2025-01-19 16:09:23] SUCCESS: Intel(R) Management Engine Driver Version 1.0.0.0 installed on \\pc-bene
+[2025-01-19 16:09:28] ERROR: Microsoft Command Line Utilities 15 for SQL Server 15.0.2000.5 not Installed on \\pc-bene
+[2025-01-19 17:31:12] ERROR: \\pc-bene have 11 of 76 softwares installed
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:14] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:15] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 17:31:18] ERROR: \\MC2-01 have 0 of 76 softwares installed
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:20] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:21] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:22] [WinError 53] The network path was not found for \\RC2-01
+[2025-01-19 17:31:23] ERROR: \\RC2-01 have 0 of 76 softwares installed
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:30] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:31] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 17:31:32] ERROR: \\MICS-01 have 0 of 76 softwares installed
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:34] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:35] [WinError 53] The network path was not found for \\RICS-01
+[2025-01-19 17:31:43] ERROR: \\RICS-01 have 0 of 76 softwares installed
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:50] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 17:31:52] ERROR: \\MDB-01 have 0 of 76 softwares installed
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:54] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:55] [WinError 53] The network path was not found for \\RDB-01
+[2025-01-19 17:31:56] ERROR: \\RDB-01 have 0 of 76 softwares installed
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:31:59] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 17:32:01] ERROR: \\OC1 have 0 of 76 softwares installed
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:03] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:04] [WinError 53] The network path was not found for \\OC2
+[2025-01-19 17:32:05] ERROR: \\OC2 have 0 of 76 softwares installed
+[2025-01-19 17:36:18] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 17:36:22] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 17:36:26] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 17:36:29] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 17:36:33] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:36:37] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:36:40] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 17:36:44] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:36:48] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 17:36:51] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 17:36:55] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 17:37:00] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 17:37:04] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 17:37:08] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:37:14] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 17:37:20] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:37:25] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:37:30] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 17:37:36] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 17:37:41] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 17:37:45] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 17:37:50] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 17:37:54] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:37:58] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 17:38:03] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:38:07] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 17:38:12] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:38:15] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 17:38:19] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 17:38:23] ERROR: PComm Lite Ver1.6  not Installed on \\pc-bene
+[2025-01-19 17:38:27] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 17:38:31] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 17:38:35] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 17:38:41] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:38:45] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 17:38:50] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 17:38:54] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 17:38:59] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 17:39:04] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 17:39:09] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 17:39:13] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 17:39:18] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:39:22] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 17:39:26] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:39:30] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 17:39:35] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:39:40] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:39:45] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 17:39:50] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 17:39:54] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 17:39:59] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 17:40:04] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 17:40:08] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 17:40:13] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 17:40:18] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 17:40:22] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:40:26] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 17:40:30] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:40:34] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 17:40:38] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 17:40:42] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 17:40:46] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 17:40:52] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 17:40:56] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 17:41:01] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 17:41:07] ERROR: ArcGIS Engine 10.6.1 10.6.9270 not Installed on \\pc-bene
+[2025-01-19 17:41:13] ERROR: Google Chrome Installed with Version 131.0.6778.265 instead of 87.0.4280.88 on \\pc-bene
+[2025-01-19 17:41:18] ERROR: Microsoft Edge 80.0.361.61 not Installed on \\pc-bene
+[2025-01-19 17:41:24] ERROR: Microsoft Edge Update 1.3.119.43 not Installed on \\pc-bene
+[2025-01-19 17:41:30] ERROR: Microsoft Help Viewer 2.3 2.3.28107 not Installed on \\pc-bene
+[2025-01-19 17:41:34] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 17:41:38] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 17:41:42] ERROR: PyCharm Community Edition 2022.3.2 223.8617.48 not Installed on \\pc-bene
+[2025-01-19 17:41:47] ERROR: Infognition ScreenPressor v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 17:41:51] ERROR: WinMerge 2.14.0 2.14.0 not Installed on \\pc-bene
+[2025-01-19 17:41:55] ERROR: WinPcap 4.1.2 4.1.0.2001 not Installed on \\pc-bene
+[2025-01-19 17:41:59] ERROR: Wireshark 1.4.9 1.4.9 not Installed on \\pc-bene
+[2025-01-19 17:42:03] ERROR: NetApp PowerShell Toolkit 9.8.0 not Installed on \\pc-bene
+[2025-01-19 17:42:07] ERROR: MobaXterm 10.5.0.3582 not Installed on \\pc-bene
+[2025-01-19 17:42:12] ERROR: Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005 12.0.21005 not Installed on \\pc-bene
+[2025-01-19 17:42:16] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 17:42:19] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 17:42:23] ERROR: Microsoft Analysis Services OLE DB Provider Installed with Version 15.0.2000.832 instead of 15.0.2000.568 on \\pc-bene
+[2025-01-19 17:42:28] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.22.27821 14.22.27821.0 not Installed on \\pc-bene
+[2025-01-19 17:42:31] ERROR: Google Update Helper 1.3.36.51 not Installed on \\pc-bene
+[2025-01-19 17:42:35] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.22.27821 14.22.27821.0 not Installed on \\pc-bene
+[2025-01-19 17:42:39] ERROR: Intel(R) Trusted Connect Services Client 1.61.251.0 not Installed on \\pc-bene
+[2025-01-19 17:42:43] ERROR: Integration Services 15.0.2000.162 not Installed on \\pc-bene
+[2025-01-19 17:42:47] ERROR: Microsoft Visual Studio Tools for Applications 2017 x86 Hosting Support 15.0.27520 not Installed on \\pc-bene
+[2025-01-19 17:42:51] ERROR: Visual Studio 2017 Isolated Shell for SSMS 15.0.28307.421 not Installed on \\pc-bene
+[2025-01-19 17:42:55] ERROR: Microsoft SQL Server Management Studio - 18.9.1 15.0.18384.0 not Installed on \\pc-bene
+[2025-01-19 17:42:59] ERROR: Intel(R) Trusted Connect Service Client x86 1.61.251.0 not Installed on \\pc-bene
+[2025-01-19 17:43:03] ERROR: Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030 11.0.61030.0 not Installed on \\pc-bene
+[2025-01-19 17:43:07] SUCCESS: Microsoft VC++ redistributables repacked. Version 12.0.0.0 installed on \\pc-bene
+[2025-01-19 17:43:10] ERROR: Intel(R) Processor Graphics 21.20.16.5103 not Installed on \\pc-bene
+[2025-01-19 17:43:14] ERROR: Realtek High Definition Audio Driver 6.0.1.8261 not Installed on \\pc-bene
+[2025-01-19 17:43:18] ERROR: Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501 12.0.30501.0 not Installed on \\pc-bene
+[2025-01-19 17:43:22] ERROR: Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support Installed with Version 15.0.27520 instead of 15.0.27520 on \\pc-bene
+[2025-01-19 17:43:25] ERROR: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005 12.0.21005 not Installed on \\pc-bene
+[2025-01-19 17:43:29] ERROR: Microsoft Office 365 - en-us 16.0.12527.20482 not Installed on \\pc-bene
+[2025-01-19 17:43:32] ERROR: Intel(R) Network Connections 26.3.0.2 26.3.0.2 not Installed on \\pc-bene
+[2025-01-19 17:43:36] ERROR: ScreenPressor x64 v4.2 (Remove Only)  not Installed on \\pc-bene
+[2025-01-19 17:43:39] ERROR: Vulkan Run Time Libraries 1.0.33.0 1.0.33.0 not Installed on \\pc-bene
+[2025-01-19 17:43:44] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.22.27821 14.22.27821 not Installed on \\pc-bene
+[2025-01-19 18:08:58] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 18:09:02] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 18:09:05] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 18:09:08] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 18:09:11] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 18:09:15] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 18:09:19] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 18:09:22] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 18:09:26] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 18:09:29] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 18:09:34] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 18:09:38] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 18:09:43] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 18:09:47] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 18:09:52] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 18:09:55] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 18:10:00] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 18:10:01] ERROR: \\pc-bene have 0 of 17 softwares installed
+[2025-01-19 19:10:45] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 19:10:49] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 19:12:02] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 19:12:06] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 19:12:10] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 19:12:13] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 19:12:17] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:12:21] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:12:25] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 19:12:28] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:12:32] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 19:12:36] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 19:12:39] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 19:12:43] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 19:12:47] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 19:12:51] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:12:56] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 19:13:02] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:13:07] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:13:12] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 19:13:18] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 19:13:22] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 19:13:26] ERROR: WinPcap 4.1.3 4.1.0.2980 not Installed on \\pc-bene
+[2025-01-19 19:13:29] ERROR: Wireshark 3.2.5 64-bit 3.2.5 not Installed on \\pc-bene
+[2025-01-19 19:13:32] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:13:36] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 19:13:39] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:13:43] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 19:13:46] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:13:50] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 19:13:53] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 19:13:56] ERROR: PComm Lite Ver1.6  not Installed on \\pc-bene
+[2025-01-19 19:14:00] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 19:14:03] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 19:14:07] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 19:14:11] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:14:14] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 19:14:17] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 19:14:21] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.26.28720 14.26.28720 not Installed on \\pc-bene
+[2025-01-19 19:14:26] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 19:14:29] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 19:14:34] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 19:14:37] SUCCESS: Google Chrome Version 131.0.6778.265 installed on \\pc-bene
+[2025-01-19 19:14:40] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:14:44] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.26.28720 14.26.28720.3 not Installed on \\pc-bene
+[2025-01-19 19:14:47] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:14:51] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 19:14:53] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:14:57] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:15:00] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 19:15:05] ERROR: MOXA Smartio/Industio Windows Driver Ver3.1 3.1 not Installed on \\pc-bene
+[2025-01-19 19:15:08] ERROR: 7-Zip 9.20 (x64 edition) 9.20.00.0 not Installed on \\pc-bene
+[2025-01-19 19:15:13] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 19:15:18] ERROR: Npcap 0.9994 not Installed on \\pc-bene
+[2025-01-19 19:38:08] ERROR: Network Time Protocol 4.2.4p6@vegas-v2-o-custom not Installed on \\pc-bene
+[2025-01-19 19:38:11] ERROR: NTP Time Server Monitor 1.04 0.9g not Installed on \\pc-bene
+[2025-01-19 19:38:15] ERROR: Infognition ScreenPressor v4.0 (Remove Only) 4 not Installed on \\pc-bene
+[2025-01-19 19:38:18] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 19:38:22] ERROR: Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:38:25] ERROR: Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:38:29] ERROR: Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4 not Installed on \\pc-bene
+[2025-01-19 19:38:32] ERROR: Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:38:35] ERROR: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 19:38:39] ERROR: MOXA Smartio/Industio Windows Driver Ver3.0 3 not Installed on \\pc-bene
+[2025-01-19 19:38:43] ERROR: Notepad++ (64-bit x64) Installed with Version 8.7.5 instead of 7.8.4 on \\pc-bene
+[2025-01-19 19:38:46] ERROR: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 10.0.40219 not Installed on \\pc-bene
+[2025-01-19 19:38:50] ERROR: 7-Zip 19.00 (x64 edition) 19.00.00.0 not Installed on \\pc-bene
+[2025-01-19 19:38:53] ERROR: Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 9.0.30729.6161 not Installed on \\pc-bene
+[2025-01-19 19:38:57] ERROR: VMware Tools 11.1.1.16303738 not Installed on \\pc-bene
+[2025-01-19 19:39:00] ERROR: Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:39:05] ERROR: Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127 not Installed on \\pc-bene
+[2025-01-19 19:39:09] ERROR: \\pc-bene have 0 of 17 softwares installed
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:16] [WinError 53] The network path was not found for \\MC2-01
+[2025-01-19 19:39:18] ERROR: \\MC2-01 have 0 of 20 softwares installed
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:20] [WinError 53] The network path was not found for \\MICS-01
+[2025-01-19 19:39:22] ERROR: \\MICS-01 have 0 of 14 softwares installed
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:24] [WinError 53] The network path was not found for \\MDB-01
+[2025-01-19 19:39:28] ERROR: \\MDB-01 have 0 of 14 softwares installed
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:30] [WinError 53] The network path was not found for \\OC1
+[2025-01-19 19:39:31] ERROR: \\OC1 have 0 of 14 softwares installed
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\pc-bene.csv not found. Skipping software check for \\pc-bene.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MC2-01.csv not found. Skipping software check for \MC2-01.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RC2-01.csv not found. Skipping software check for \RC2-01.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MICS-01.csv not found. Skipping software check for \MICS-01.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RICS-01.csv not found. Skipping software check for \RICS-01.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MDB-01.csv not found. Skipping software check for \MDB-01.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RDB-01.csv not found. Skipping software check for \RDB-01.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC1.csv not found. Skipping software check for \\OC1.
+[2025-01-19 19:44:24] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC2.csv not found. Skipping software check for \\OC2.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\pc-bene.csv not found. Skipping software check for \\pc-bene.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MC2-01.csv not found. Skipping software check for \MC2-01.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RC2-01.csv not found. Skipping software check for \RC2-01.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MICS-01.csv not found. Skipping software check for \MICS-01.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RICS-01.csv not found. Skipping software check for \RICS-01.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MDB-01.csv not found. Skipping software check for \MDB-01.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RDB-01.csv not found. Skipping software check for \RDB-01.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC1.csv not found. Skipping software check for \\OC1.
+[2025-01-19 19:45:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC2.csv not found. Skipping software check for \\OC2.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\pc-bene.csv not found. Skipping software check for \\pc-bene.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MC2-01.csv not found. Skipping software check for \MC2-01.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RC2-01.csv not found. Skipping software check for \RC2-01.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MICS-01.csv not found. Skipping software check for \MICS-01.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RICS-01.csv not found. Skipping software check for \RICS-01.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MDB-01.csv not found. Skipping software check for \MDB-01.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RDB-01.csv not found. Skipping software check for \RDB-01.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC1.csv not found. Skipping software check for \\OC1.
+[2025-01-19 19:45:52] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC2.csv not found. Skipping software check for \\OC2.
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MICS-01.csv not found. Skipping software check for MICS-01.
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RICS-01.csv not found. Skipping software check for RICS-01.
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MDB-01.csv not found. Skipping software check for MDB-01.
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RDB-01.csv not found. Skipping software check for RDB-01.
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC1.csv not found. Skipping software check for OC1.
+[2025-01-19 19:48:33] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC2.csv not found. Skipping software check for OC2.
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MICS-01.csv not found. Skipping software check for MICS-01.
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RICS-01.csv not found. Skipping software check for RICS-01.
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MDB-01.csv not found. Skipping software check for MDB-01.
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RDB-01.csv not found. Skipping software check for RDB-01.
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC1.csv not found. Skipping software check for OC1.
+[2025-01-19 19:54:12] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC2.csv not found. Skipping software check for OC2.
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:09] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MICS-01.csv not found. Skipping software check for MICS-01.
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RICS-01.csv not found. Skipping software check for RICS-01.
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MDB-01.csv not found. Skipping software check for MDB-01.
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RDB-01.csv not found. Skipping software check for RDB-01.
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC1.csv not found. Skipping software check for OC1.
+[2025-01-19 19:56:10] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC2.csv not found. Skipping software check for OC2.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MICS-01.csv not found. Skipping software check for MICS-01.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RICS-01.csv not found. Skipping software check for RICS-01.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MDB-01.csv not found. Skipping software check for MDB-01.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RDB-01.csv not found. Skipping software check for RDB-01.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC1.csv not found. Skipping software check for OC1.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC2.csv not found. Skipping software check for OC2.
+[2025-01-19 19:59:09] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:53] [WinError 53] The network path was not found for pc-bene
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MICS-01.csv not found. Skipping software check for MICS-01.
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RICS-01.csv not found. Skipping software check for RICS-01.
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MDB-01.csv not found. Skipping software check for MDB-01.
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RDB-01.csv not found. Skipping software check for RDB-01.
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC1.csv not found. Skipping software check for OC1.
+[2025-01-19 20:00:54] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC2.csv not found. Skipping software check for OC2.
+[2025-01-19 20:02:29] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\pc-bene.csv not found. Skipping software check for \\pc-bene.
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] [WinError 53] The network path was not found for MC2-01
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RC2-01.csv not found. Skipping software check for RC2-01.
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MICS-01.csv not found. Skipping software check for MICS-01.
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RICS-01.csv not found. Skipping software check for RICS-01.
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_MDB-01.csv not found. Skipping software check for MDB-01.
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_RDB-01.csv not found. Skipping software check for RDB-01.
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC1.csv not found. Skipping software check for OC1.
+[2025-01-19 20:02:36] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_OC2.csv not found. Skipping software check for OC2.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\pc-bene.csv not found. Skipping software check for \\pc-bene.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MC2-01.csv not found. Skipping software check for \MC2-01.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RC2-01.csv not found. Skipping software check for \RC2-01.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MICS-01.csv not found. Skipping software check for \MICS-01.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RICS-01.csv not found. Skipping software check for \RICS-01.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\MDB-01.csv not found. Skipping software check for \MDB-01.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\RDB-01.csv not found. Skipping software check for \RDB-01.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC1.csv not found. Skipping software check for \\OC1.
+[2025-01-19 20:14:01] ERROR: C:\Python Projects\Spyder-SU\Spyder-SU\Config\SoftwaresListConfig\software_list_\\OC2.csv not found. Skipping software check for \\OC2.

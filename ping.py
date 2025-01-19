@@ -1,6 +1,7 @@
 import subprocess
 import datetime
 import os
+#from main import update_listboxes
 
 current_working_dir = os.getcwd()
 
@@ -16,138 +17,164 @@ def log_error(error_message):
     with open(log_file, 'a') as log:
         log.write(f"[{current_time}] {error_message}\n")
 
-def ping(batt_number, project, set, diff_network=None, cop_ip=None):
+# The ping function
+def ping(batt_number, project, set, update_treeview, permission_treeview, diff_network=None, cop_ip=None):
+    components_ip = {}
+    connected_devices = []
+    disconnected_devices = []
+
+    # Determine the IP addresses based on the settings
     if cop_ip:
         if diff_network and set == "Main":
-            components_ip = {"MC2": f"{diff_network}.111",
-                            "MICS": f"{diff_network}.101",
-                            "MDB": f"{diff_network}.121",
-                            "OC1": f"{diff_network}.131",
-                            "COP": f"{cop_ip}"}
+            components_ip = {
+                "MC2": f"{diff_network}.111",
+                "MICS": f"{diff_network}.101",
+                "MDB": f"{diff_network}.121",
+                "OC1": f"{diff_network}.131",
+                "COP": f"{cop_ip}"
+            }
         elif diff_network and set == "Backup":
-            components_ip = {"RC2": f"{diff_network}.112",
-                            "RICS": f"{diff_network}.102",
-                            "RDB": f"{diff_network}.122",
-                            "OC2": f"{diff_network}.132",
-                            "COP": f"{cop_ip}"}
+            components_ip = {
+                "RC2": f"{diff_network}.112",
+                "RICS": f"{diff_network}.102",
+                "RDB": f"{diff_network}.122",
+                "OC2": f"{diff_network}.132",
+                "COP": f"{cop_ip}"
+            }
         elif diff_network and set == "Main+Backup":
-            components_ip = {"MC2": f"{diff_network}.111",
-                            "MICS": f"{diff_network}.101",
-                            "MDB": f"{diff_network}.121",
-                            "OC1": f"{diff_network}.131",
-                            "RC2": f"{diff_network}.112",
-                            "RICS": f"{diff_network}.102",
-                            "RDB": f"{diff_network}.122",
-                            "OC2": f"{diff_network}.132",
-                            "COP": f"{cop_ip}"}      
-        else:    
+            components_ip = {
+                "MC2": f"{diff_network}.111",
+                "MICS": f"{diff_network}.101",
+                "MDB": f"{diff_network}.121",
+                "OC1": f"{diff_network}.131",
+                "RC2": f"{diff_network}.112",
+                "RICS": f"{diff_network}.102",
+                "RDB": f"{diff_network}.122",
+                "OC2": f"{diff_network}.132",
+                "COP": f"{cop_ip}"
+            }
+        else:
             if project == "All-In-One":
-                components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                                "MICS": f"194.0.8{batt_number}.101",
-                                "MDB": f"194.0.8{batt_number}.121",
-                                "OC1": f"194.0.8{batt_number}.131"}
+                components_ip = {
+                    "MC2": f"194.0.8{batt_number}.111",
+                    "MICS": f"194.0.8{batt_number}.101",
+                    "MDB": f"194.0.8{batt_number}.121",
+                    "OC1": f"194.0.8{batt_number}.131",
+                    "COP": f"{cop_ip}"
+                }
             elif project == 'Spyder' and set == "Main":
-                components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                                "MICS": f"194.0.8{batt_number}.101",
-                                "MDB": f"194.0.8{batt_number}.121",
-                                "OC1": f"194.0.8{batt_number}.131"}
+                components_ip = {
+                    "MC2": f"194.0.8{batt_number}.111",
+                    "MICS": f"194.0.8{batt_number}.101",
+                    "MDB": f"194.0.8{batt_number}.121",
+                    "OC1": f"194.0.8{batt_number}.131",
+                    "COP": f"{cop_ip}"
+                }
             elif project == 'Spyder' and set == "Backup":
-                components_ip = {"RC2": f"194.0.8{batt_number}.112",
-                                "RICS": f"194.0.8{batt_number}.102",
-                                "RDB": f"194.0.8{batt_number}.122",
-                                "OC2": f"194.0.8{batt_number}.132"}
-            elif project == 'Spyder' and set =='Main+Backup':
-                components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                                "RC2": f"194.0.8{batt_number}.112",
-                                "MICS": f"194.0.8{batt_number}.101",
-                                "RICS": f"194.0.8{batt_number}.102",
-                                "MDB": f"194.0.8{batt_number}.121",
-                                "RDB": f"194.0.8{batt_number}.122",
-                                "OC1": f"194.0.8{batt_number}.131",
-                                "OC2": f"194.0.8{batt_number}.132"}   
+                components_ip = {
+                    "RC2": f"194.0.8{batt_number}.112",
+                    "RICS": f"194.0.8{batt_number}.102",
+                    "RDB": f"194.0.8{batt_number}.122",
+                    "OC2": f"194.0.8{batt_number}.132",
+                    "COP": f"{cop_ip}"
+                }
+            elif project == 'Spyder' and set == "Main+Backup":
+                components_ip = {
+                    "MC2": f"194.0.8{batt_number}.111",
+                    "RC2": f"194.0.8{batt_number}.112",
+                    "MICS": f"194.0.8{batt_number}.101",
+                    "RICS": f"194.0.8{batt_number}.102",
+                    "MDB": f"194.0.8{batt_number}.121",
+                    "RDB": f"194.0.8{batt_number}.122",
+                    "OC1": f"194.0.8{batt_number}.131",
+                    "OC2": f"194.0.8{batt_number}.132",
+                    "COP": f"{cop_ip}"
+                }
             else:
-                return False
+                return False  # If project doesn't match any known type
+    
+    # Case 2: When cop_ip is NOT provided
     else:
         if diff_network and set == "Main":
-            components_ip = {"MC2": f"{diff_network}.111",
-                            "MICS": f"{diff_network}.101",
-                            "MDB": f"{diff_network}.121",
-                            "OC1": f"{diff_network}.131",
-                            "COP": f"{cop_ip}"}
+            components_ip = {
+                "MC2": f"{diff_network}.111",
+                "MICS": f"{diff_network}.101",
+                "MDB": f"{diff_network}.121",
+                "OC1": f"{diff_network}.131"
+            }
         elif diff_network and set == "Backup":
-            components_ip = {"RC2": f"{diff_network}.112",
-                            "RICS": f"{diff_network}.102",
-                            "RDB": f"{diff_network}.122",
-                            "OC2": f"{diff_network}.132",
-                            "COP": f"{cop_ip}"}
+            components_ip = {
+                "RC2": f"{diff_network}.112",
+                "RICS": f"{diff_network}.102",
+                "RDB": f"{diff_network}.122",
+                "OC2": f"{diff_network}.132"
+            }
         elif diff_network and set == "Main+Backup":
-            components_ip = {"MC2": f"{diff_network}.111",
-                            "MICS": f"{diff_network}.101",
-                            "MDB": f"{diff_network}.121",
-                            "OC1": f"{diff_network}.131",
-                            "RC2": f"{diff_network}.112",
-                            "RICS": f"{diff_network}.102",
-                            "RDB": f"{diff_network}.122",
-                            "OC2": f"{diff_network}.132",
-                            "COP": f"{cop_ip}"}      
-        else:    
+            components_ip = {
+                "MC2": f"{diff_network}.111",
+                "MICS": f"{diff_network}.101",
+                "MDB": f"{diff_network}.121",
+                "OC1": f"{diff_network}.131",
+                "RC2": f"{diff_network}.112",
+                "RICS": f"{diff_network}.102",
+                "RDB": f"{diff_network}.122",
+                "OC2": f"{diff_network}.132"
+            }
+        else:
             if project == "All-In-One":
-                components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                                "MICS": f"194.0.8{batt_number}.101",
-                                "MDB": f"194.0.8{batt_number}.121",
-                                "OC1": f"194.0.8{batt_number}.131"}
+                components_ip = {
+                    "MC2": f"194.0.8{batt_number}.111",
+                    "MICS": f"194.0.8{batt_number}.101",
+                    "MDB": f"194.0.8{batt_number}.121",
+                    "OC1": f"194.0.8{batt_number}.131"
+                }
             elif project == 'Spyder' and set == "Main":
-                components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                                "MICS": f"194.0.8{batt_number}.101",
-                                "MDB": f"194.0.8{batt_number}.121",
-                                "OC1": f"194.0.8{batt_number}.131"}
+                components_ip = {
+                    "MC2": f"194.0.8{batt_number}.111",
+                    "MICS": f"194.0.8{batt_number}.101",
+                    "MDB": f"194.0.8{batt_number}.121",
+                    "OC1": f"194.0.8{batt_number}.131"
+                }
             elif project == 'Spyder' and set == "Backup":
-                components_ip = {"RC2": f"194.0.8{batt_number}.112",
-                                "RICS": f"194.0.8{batt_number}.102",
-                                "RDB": f"194.0.8{batt_number}.122",
-                                "OC2": f"194.0.8{batt_number}.132"}
-            elif project == 'Spyder' and set =='Main+Backup':
-                components_ip = {"MC2": f"194.0.8{batt_number}.111",
-                                "RC2": f"194.0.8{batt_number}.112",
-                                "MICS": f"194.0.8{batt_number}.101",
-                                "RICS": f"194.0.8{batt_number}.102",
-                                "MDB": f"194.0.8{batt_number}.121",
-                                "RDB": f"194.0.8{batt_number}.122",
-                                "OC1": f"194.0.8{batt_number}.131",
-                                "OC2": f"194.0.8{batt_number}.132"}   
+                components_ip = {
+                    "RC2": f"194.0.8{batt_number}.112",
+                    "RICS": f"194.0.8{batt_number}.102",
+                    "RDB": f"194.0.8{batt_number}.122",
+                    "OC2": f"194.0.8{batt_number}.132"
+                }
+            elif project == 'Spyder' and set == "Main+Backup":
+                components_ip = {
+                    "MC2": f"194.0.8{batt_number}.111",
+                    "RC2": f"194.0.8{batt_number}.112",
+                    "MICS": f"194.0.8{batt_number}.101",
+                    "RICS": f"194.0.8{batt_number}.102",
+                    "MDB": f"194.0.8{batt_number}.121",
+                    "RDB": f"194.0.8{batt_number}.122",
+                    "OC1": f"194.0.8{batt_number}.131",
+                    "OC2": f"194.0.8{batt_number}.132"
+                }
             else:
-                return False
+                return False  # If project doesn't match any known type
+    
     total_failure = 0
     connected_devices = []
     disconnected_devices = []
-    # progressbar_value = 0
+
     # Ping each component
     for component, ip in components_ip.items():
         command = ["ping", "-n", "2", ip]
-        print(f"Pinging {component} {ip}...")
         try:
-            # Run the ping command
             result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-            
-            # Check the return code and print result for each component
             if result.returncode == 0:
-                print(f"Ping to {ip} successful for {component}!")
-                log_message = f"Ping succeeded for {component} ({ip}): {result.stderr}"
-                log_error(log_message)
                 connected_devices.append(component)
-                # progressbar_value += 25
-                # update_progressbar(pb, progressbar_value)
             else:
-                print(f"Ping to {ip} failed for {component}!")
-                error_message = f"Ping failed for {component} ({ip}): {result.stderr}"
-                log_error(error_message)                
-                print(result.stderr)
-                total_failure += 1
                 disconnected_devices.append(component)
-                # progressbar_value += 25
-                # update_progressbar(pb, progressbar_value)
+                total_failure += 1
         except Exception as e:
-            print(f"An error occurred while pinging {component}: {e}")
             total_failure += 1
+            disconnected_devices.append(component)
+
+        # Update the UI live after each ping
+        update_treeview(permission_treeview, connected_devices, disconnected_devices)
+
     return total_failure, connected_devices, disconnected_devices
-    
