@@ -93,10 +93,11 @@ def disk_space(pc):
             free_space = int(disk.FreeSpace) / (1024 ** 3)  # Convert bytes to GB
             used_space = total_space - free_space
             disk_info.append((drive, total_space, free_space, used_space))
+        
         return disk_info
     except Exception as e:
         print(f"Error checking disk space on {pc}: {e}")
-        return None
+        return None  # Return None on failure
     finally:
         # Ensure to uninitialize COM when done with the thread
         pythoncom.CoUninitialize()
@@ -104,30 +105,23 @@ def disk_space(pc):
 # Function to update the Treeview with disk space information for each computer
 def update_treeview_disk(treeview, pc, disk_info):
     if disk_info:
+        # Loop through disk information and update treeview
         for drive, total, free, used in disk_info:
-            # Find the matching row for the computer and drive, and update the status
-            updated = False
-            for item in treeview.get_children():
-                if treeview.item(item)["values"][0] == pc and treeview.item(item)["values"][1] == drive:
-                    treeview.item(item, values=(pc, drive, f"{free:.2f} GB Free"))
-                    updated = True
-                    break
-            if not updated:
-                # If not found, insert a new row
-                treeview.insert('', 'end', values=(pc, drive, f"{free:.2f} GB Free"))
+            # Determine if the status is "OK" or "NOT OK"
+            status = "Ready" if free > 140 else f"NOT Ready - Clean {drive}"
+            
+            # Add the row to the Treeview after checking the disk space
+            treeview.insert('', 'end', values=(pc, drive, f"{free:.2f} GB Free", status))
     else:
         # If the remote computer is unreachable or there is an error, update the status as 'Error'
-        for item in treeview.get_children():
-            if treeview.item(item)["values"][0] == pc:
-                treeview.item(item, values=(pc, "Error", "Unable to retrieve disk space"))
-                break
+        treeview.insert('', 'end', values=(pc, "Error", "Unable to retrieve disk space", "Error"))
 
 # Function to run the disk space check and update the Treeview
 def run_disk_space_check(treeview, pc):
     # Query the disk space for the computer
     disk_info = disk_space(pc)
     
-    # Update the Treeview with the retrieved disk space information
+    # Update the Treeview with the retrieved disk space information or error
     update_treeview_disk(treeview, pc, disk_info)
 
 # Function to start the disk space check in a separate thread for each computer
@@ -139,51 +133,69 @@ def disk_space_window(battnumber, project, set, b12, cop_id):
     # Create the Toplevel window
     disk_space_window = tk.Toplevel(root)
     disk_space_window.title("Disk Space Status for Remote PCs")
-    disk_space_window.geometry("800x400")  # Size of the new window
+    disk_space_window.geometry("1000x400")  # Size of the new window
 
-    # Create the Treeview widget
-    treeview = ttk.Treeview(disk_space_window, columns=("Computer", "Drive", "Free Space"), show="headings")
+    # Create the Treeview widget with an additional "Status" column
+    treeview = ttk.Treeview(disk_space_window, columns=("Computer", "Drive", "Free Space", "Status"), show="headings")
     treeview.heading("Computer", text="Computer")
     treeview.heading("Drive", text="Drive")
     treeview.heading("Free Space", text="Free Space")
+    treeview.heading("Status", text="Status")
     treeview.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+    # Create an indeterminate progress bar widget with bootstyle 'info'
+    pbc = ttk.Progressbar(root, bootstyle='info', mode="indeterminate", length=100)
+    pbc.start(10)  # Start the indeterminate progress bar
+    pbc.place(relx=0.73, rely=0.95)  # Position it based on relative coordinates
+
+    # Create a label to show "Permissions Check In Progress"
+    pbc_label = ttk.Label(root, text="Permissions Check In Progress", background="#000000", foreground="#FFFFFF")
+    pbc_label.place(relx=0.68, rely=0.91)  # Position label under progress bar
+    pbc_label.configure(text="Permissions Check In Progress")
+
 
     # Define remote computers based on the input parameters
     if set == 'Main+Backup':
         if cop_id:
             remote_computers = [
-                r'pc-bene', 
-                r'MC2-0{}'.format(battnumber),
-                r'RC2-0{}'.format(battnumber),
-                r'MICS-0{}'.format(battnumber),
-                r'RICS-0{}'.format(battnumber),
-                r'MDB-0{}'.format(battnumber),
-                r'RDB-0{}'.format(battnumber),
-                r'OC1'.format(battnumber),
-                r'OC2'.format(battnumber),
-                r'COP'.format(cop_id)
+                'pc-bene',  # Removed '\\'
+                'MC2-0{}'.format(battnumber),
+                'RC2-0{}'.format(battnumber),
+                'MICS-0{}'.format(battnumber),
+                'RICS-0{}'.format(battnumber),
+                'MDB-0{}'.format(battnumber),
+                'RDB-0{}'.format(battnumber),
+                'OC1'.format(battnumber),
+                'OC2'.format(battnumber),
+                'COP'.format(cop_id)
             ]
+            rclen = len(remote_computers)
         else:
             remote_computers = [
-                r'pc-bene', 
-                r'MC2-0{}'.format(battnumber),
-                r'RC2-0{}'.format(battnumber),
-                r'MICS-0{}'.format(battnumber),
-                r'RICS-0{}'.format(battnumber),
-                r'MDB-0{}'.format(battnumber),
-                r'RDB-0{}'.format(battnumber),
-                r'OC1'.format(battnumber),
-                r'OC2'.format(battnumber)
+                'pc-bene',  # Removed '\\'
+                'MC2-0{}'.format(battnumber),
+                'RC2-0{}'.format(battnumber),
+                'MICS-0{}'.format(battnumber),
+                'RICS-0{}'.format(battnumber),
+                'MDB-0{}'.format(battnumber),
+                'RDB-0{}'.format(battnumber),
+                'OC1'.format(battnumber),
+                'OC2'.format(battnumber)
             ]
-
-    # Add initial rows to the Treeview for each computer (initially "Checking...")
-    for pc in remote_computers:
-        treeview.insert('', 'end', values=(pc, "Checking...", "Initializing"))
-
+            rclen = len(remote_computers)
+        
+    len10 = 0
+    print(rclen,len10)
     # Start the disk space check for each remote computer in separate threads
     for pc in remote_computers:
-        check_disk_space_for_pc(treeview, pc)
+        len10 += 1
+        print(len10)
+        check_disk_space_for_pc(treeview, pc,
+        )
 
+    # if len10 != rclen:
+    #     pbc_label.place_forget()
+    #     pbc.place_forget()
 # Function to check permissions on remote computers
 def check_permission_to_c(battnumber, project, set, b11, cop_id):
     # Create a new top-level window for showing results
